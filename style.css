@@ -173,7 +173,26 @@ html[lang="en"] .lang-fr {
     font-size: 1rem;
     color: var(--accent);
     font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.hero-logos {
+    display: flex;
+    gap: 24px;
+    align-items: center;
     margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.inst-logo {
+    height: 45px;
+    object-fit: contain;
+    filter: grayscale(100%) opacity(0.8);
+    transition: var(--transition);
+}
+
+.inst-logo:hover {
+    filter: grayscale(0%) opacity(1);
 }
 
 .bio {
