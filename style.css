@@ -408,6 +408,30 @@ html[lang="en"] .lang-fr {
     width: 100%;
 }
 
+.pub-image-container {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border);
+    padding: 4px;
+}
+
+.pub-image {
+    max-width: 100%;
+    max-height: 120px;
+    object-fit: contain;
+    transition: var(--transition);
+}
+
+.pub-item:hover .pub-image {
+    transform: scale(1.03);
+}
+
 .pub-title {
     font-size: 1.05rem;
     font-weight: 600;
@@ -640,6 +664,20 @@ html[lang="en"] .lang-fr {
         flex-direction: column;
         gap: 12px;
         padding: 20px;
+    }
+
+    .pub-image-container {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        justify-content: flex-start;
+        background-color: transparent;
+        border: none;
+        padding: 0;
+    }
+    
+    .pub-image {
+        max-height: 160px;
     }
 
     .pub-year {
