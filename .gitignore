@@ -1,0 +1,7 @@
+# Ignore PDF reports but keep cv.pdf
+*.pdf
+!cv.pdf
+
+# Ignore agent configurations
+.agents/
+.gemini/
