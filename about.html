@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcours — Nicolas Harmand</title>
+    <meta name="description" content="Parcours académique, professionnel et personnel de Nicolas Harmand, chercheur et joueur de backgammon de haut niveau.">
+    <link rel="stylesheet" href="style.css?v=2.0.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barre de navigation latérale -->
+    <header class="sidebar">
+        <a href="index.html" class="nav-logo">Nicolas Harmand</a>
+        <p class="nav-subtitle">
+            <span class="lang-fr">Chercheur au CNRS<br>Sorbonne Université</span>
+            <span class="lang-en">CNRS Research Fellow<br>Sorbonne Université</span>
+        </p>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">
+                <span class="lang-fr">À propos</span>
+                <span class="lang-en">About me</span>
+            </a>
+            <a href="research.html" class="nav-link">
+                <span class="lang-fr">Recherche</span>
+                <span class="lang-en">Research</span>
+            </a>
+            <a href="publications.html" class="nav-link">
+                <span class="lang-fr">Publications</span>
+                <span class="lang-en">Publications</span>
+            </a>
+            <a href="people.html" class="nav-link">
+                <span class="lang-fr">People</span>
+                <span class="lang-en">People</span>
+            </a>
+            <a href="about.html" class="nav-link active">
+                <span class="lang-fr">Parcours</span>
+                <span class="lang-en">About me</span>
+            </a>
+            <a href="opportunities.html" class="nav-link">
+                <span class="lang-fr">Opportunités</span>
+                <span class="lang-en">Opportunities</span>
+            </a>
+            
+            <button id="lang-toggle" class="lang-btn" aria-label="Changer de langue / Switch language">
+                <span class="lang-fr">English</span>
+                <span class="lang-en">Français</span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="section" style="padding-top: 20px;">
+            <h1 class="section-title">
+                <span class="lang-fr">Mon Parcours</span>
+                <span class="lang-en">My Journey</span>
+            </h1>
+            
+            <!-- Cheminement professionnel en prose -->
+            <div class="bio lang-fr" style="max-width: 100%; font-weight: 300; font-size: 1.1rem; line-height: 1.8;">
+                <p style="margin-bottom: 20px;">
+                    Mon parcours se situe à l'interface entre la physique de la matière molle et les systèmes biologiques. J'ai d'abord suivi une formation d'ingénieur pluridisciplinaire à l'ESPCI Paris, doublée d'un Master 2 ICFP (Physique des Liquides) à Sorbonne Université. C'est là que s'est forgée ma conviction que les concepts physiques (tensions superficielles, élasticité, hydrodynamique active) peuvent apporter un éclairage nouveau sur le fonctionnement et l'auto-organisation des tissus vivants.
+                </p>
+                <p style="margin-bottom: 20px;">
+                    J'ai ensuite effectué un doctorat en biophysique au laboratoire Matière et Systèmes Complexes (MSC) de l'Université Paris Diderot, sous la direction de Sylvie Hénon, portant sur la forme 3D et l'épaisseur des cellules épithéliales sur des substrats courbes. En 2018, j'ai eu l'opportunité d'être chercheur invité (Visiting Scholar) au sein du département de Bio-ingénierie de Stanford University (Prakash Lab), pour y étudier les défauts topologiques dans les colonies bactériennes actives.
+                </p>
+                <p style="margin-bottom: 20px;">
+                    Après ma thèse, j'ai choisi de confronter mes connaissances à la recherche appliquée industrielle en rejoignant Saint-Gobain Recherche Paris en tant qu'ingénieur de recherche. Pendant trois ans et demi, j'y ai développé des procédés physiques innovants, menant au dépôt de trois brevets internationaux. Fort de cette culture de rigueur et de robustesse expérimentale, je suis retourné à la recherche académique fondamentale en rejoignant le Laboratoire Jean Perrin (LJP) en 2024, travaillant sur la microrhéométrie de la matrice extracellulaire pendant l'embryogenèse.
+                </p>
+            </div>
+
+            <div class="bio lang-en" style="max-width: 100%; font-weight: 300; font-size: 1.1rem; line-height: 1.8;">
+                <p style="margin-bottom: 20px;">
+                    My career lies at the interface between soft matter physics and biological systems. I first trained as a multidisciplinary engineer at ESPCI Paris, alongside a Master's degree in Physics of Liquids (ICFP) at Sorbonne Université. This is where I developed the conviction that physical concepts (surface tension, elasticity, active hydrodynamics) can bring new insights into the behavior and self-organization of living tissues.
+                </p>
+                <p style="margin-bottom: 20px;">
+                    I then completed a PhD in biophysics at the Matter and Complex Systems (MSC) laboratory of Université Paris Diderot, supervised by Sylvie Hénon, focusing on the 3D shape and thickness of epithelial cells on curved substrates. In 2018, I had the opportunity to join the Bio-engineering department of Stanford University (Prakash Lab) as a Visiting Scholar, studying topological defects in active bacterial colonies.
+                </p>
+                <p style="margin-bottom: 20px;">
+                    Following my PhD, I decided to apply my physics background to industrial research and joined Saint-Gobain Recherche Paris as an R&D engineer. For three and a half years, I developed innovative physical processes, leading to three international patents. Driven by this experience in experimental robustness and engineering rigor, I returned to fundamental academic research in 2024 by joining the Laboratoire Jean Perrin (LJP) as a postdoctoral researcher, working on the microrheometry of the extracellular matrix during embryogenesis.
+                </p>
+            </div>
+        </section>
+
+        <!-- Section Timeline de carrière détaillée -->
+        <section class="section">
+            <h2 class="section-title">
+                <span class="lang-fr">Chronologie</span>
+                <span class="lang-en">Timeline</span>
+            </h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="time-period">2024 — Présent</span>
+                    <div class="time-details">
+                        <h4>
+                            <span class="lang-fr">Post-doctorant</span>
+                            <span class="lang-en">Postdoctoral Researcher</span>
+                        </h4>
+                        <p class="location">Sorbonne Université (Laboratoire Jean Perrin) — Paris</p>
+                        <p class="description lang-fr">Recherche sur la microrhéométrie de la matrice extracellulaire pendant l'embryogenèse.</p>
+                        <p class="description lang-en">Research on microrheometry of the extracellular matrix during embryogenesis.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="time-period">2020 — 2024</span>
+                    <div class="time-details">
+                        <h4>
+                            <span class="lang-fr">Ingénieur de recherche R&D</span>
+                            <span class="lang-en">R&D Research Engineer</span>
+                        </h4>
+                        <p class="location">Saint-Gobain Recherche Paris — Aubervilliers</p>
+                        <p class="description lang-fr">Recherche appliquée en physique des procédés industriels (3 brevets déposés).</p>
+                        <p class="description lang-en">Applied research in industrial process physics (3 patents filed).</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="time-period">2018</span>
+                    <div class="time-details">
+                        <h4>
+                            <span class="lang-fr">Chercheur Invité (Visiting Scholar)</span>
+                            <span class="lang-en">Visiting Scholar</span>
+                        </h4>
+                        <p class="location">Stanford University (Bio-engineering Dept.) — USA</p>
+                        <p class="description lang-fr">Étude des défauts topologiques dans les colonies bactériennes actives (cristaux liquides) au sein du Prakash Lab.</p>
+                        <p class="description lang-en">Study of topological defects in active bacterial colonies (liquid crystals) in the Prakash Lab.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="time-period">2016 — 2020</span>
+                    <div class="time-details">
+                        <h4>
+                            <span class="lang-fr">Doctorat & Post-doctorat de transition</span>
+                            <span class="lang-en">PhD & Transition Postdoc</span>
+                        </h4>
+                        <p class="location">Université Paris Diderot / Laboratoire MSC — Paris</p>
+                        <p class="description lang-fr">Soutenance d'une thèse en biophysique sur la mécanique et la forme des cellules épithéliales.</p>
+                        <p class="description lang-en">PhD thesis in biophysics on the mechanics and shape of epithelial cells.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <span class="time-period">2012 — 2016</span>
+                    <div class="time-details">
+                        <h4>
+                            <span class="lang-fr">Diplôme d'Ingénieur & Master 2 ICFP</span>
+                            <span class="lang-en">Engineering Degree & M2 ICFP</span>
+                        </h4>
+                        <p class="location">ESPCI Paris / Sorbonne Université — Paris</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Vie Perso / Backgammon -->
+        <section class="section">
+            <h2 class="section-title">
+                <span class="lang-fr">Au-delà de la Physique : Le Backgammon</span>
+                <span class="lang-en">Beyond Physics: Backgammon</span>
+            </h2>
+            
+            <div class="backgammon-section">
+                <div class="backgammon-text">
+                    <p class="bio lang-fr" style="font-weight: 300; font-size: 1.05rem;">
+                        En dehors du laboratoire, je suis un passionné de backgammon de compétition auquel je joue à un très haut niveau. Membre actif du circuit compétitif national et international, j'ai intégré la sélection nationale de l'<strong>Équipe de France</strong> et participerai aux Championnats du monde par équipe à Londres à la fin du mois d'août 2026. 
+                        <br><br>
+                        Je détiens actuellement le titre de <strong>Master M2</strong> décerné par le BMAB (<em>Backgammon Masters Awarding Body</em>).
+                    </p>
+                    <p class="bio lang-en" style="font-weight: 300; font-size: 1.05rem;">
+                        Outside the lab, I am a passionate competitive backgammon player, playing at a very high level. As an active member of both national and international circuits, I was selected to represent the <strong>French National Team</strong> at the World Team Championships in London at the end of August 2026.
+                        <br><br>
+                        I currently hold the title of <strong>Master M2</strong> awarded by the BMAB (<em>Backgammon Masters Awarding Body</em>).
+                    </p>
+                    
+                    <div class="links-wrapper" style="margin-top: 20px;">
+                        <a href="https://bgmastersab.com/matchlog?id=2775" target="_blank" rel="noopener" class="btn btn-secondary">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12h8"/></svg>
+                            <span class="lang-fr">Profil BMAB / Matchlog</span>
+                            <span class="lang-en">BMAB Profile / Matchlog</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="backgammon-photo-wrapper">
+                    <img src="images/500552361_18313514809233442_351709414216157124_n.webp" alt="Nicolas Harmand playing backgammon" class="backgammon-photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Section Distinctions & Services -->
+        <section class="section">
+            <h2 class="section-title">
+                <span class="lang-fr">Distinctions & Services</span>
+                <span class="lang-en">Awards & Service</span>
+            </h2>
+            <div class="distinctions-container">
+                <div class="dist-column">
+                    <h3>
+                        <span class="lang-fr">Distinctions</span>
+                        <span class="lang-en">Awards & Honors</span>
+                    </h3>
+                    <ul class="bullet-list lang-fr">
+                        <li>🏆 Finaliste national des Olympiades de Physique (2011)</li>
+                        <li>🌟 Nikon Small World in Motion (2015)</li>
+                        <li>🥇 Lauréat CNRS "La preuve par l'image" (2019)</li>
+                        <li>🎨 Lauréat "Beautiful Science" (Société Française de Physique, 2019)</li>
+                    </ul>
+                    <ul class="bullet-list lang-en">
+                        <li>🏆 National Finalist of the Physics Olympiads (2011)</li>
+                        <li>🌟 Nikon Small World in Motion (2015)</li>
+                        <li>🥇 Winner CNRS "La preuve par l'image" (2019)</li>
+                        <li>🎨 Winner "Beautiful Science" (French Physical Society, 2019)</li>
+                    </ul>
+                </div>
+                <div class="dist-column">
+                    <h3>
+                        <span class="lang-fr">Service à la communauté</span>
+                        <span class="lang-en">Community Service</span>
+                    </h3>
+                    <ul class="bullet-list lang-fr">
+                        <li><strong>Évaluation :</strong> Rédacteur/Reviewer pour la revue <em>iScience</em> (Cell Press).</li>
+                        <li><strong>Organisation :</strong> Co-organisateur du symposium <em>Dynamics of extra-cellular matrix</em> (2024).</li>
+                        <li><strong>Vulgarisation :</strong> Rédaction de la page Wikipédia francophone de référence pour les <a href="https://fr.wikipedia.org/wiki/Cellule_MDCK" target="_blank" rel="noopener">Cellules MDCK</a>.</li>
+                    </ul>
+                    <ul class="bullet-list lang-en">
+                        <li><strong>Reviewing:</strong> Referee for the journal <em>iScience</em> (Cell Press).</li>
+                        <li><strong>Organization:</strong> Co-organizer of the <em>Dynamics of extra-cellular matrix</em> symposium (2024).</li>
+                        <li><strong>Outreach:</strong> Authored the reference French Wikipedia page for <a href="https://fr.wikipedia.org/wiki/Cellule_MDCK" target="_blank" rel="noopener">MDCK cells</a>.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <p><strong>Nicolas Harmand</strong></p>
+                <p><span class="lang-fr">Laboratoire Jean Perrin (UMR 8237) — Sorbonne Université & CNRS</span><span class="lang-en">Laboratoire Jean Perrin (UMR 8237) — Sorbonne Université & CNRS</span></p>
+                <p><span class="lang-fr">Tours 32-42, Bureau 503, 4 Place Jussieu, 75005 Paris, France</span><span class="lang-en">Tours 32-42, Office 503, 4 Place Jussieu, 75005 Paris, France</span></p>
+                <p>Email: <a href="mailto:nicolas.harmand@sorbonne-universite.fr">nicolas.harmand@sorbonne-universite.fr</a></p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 Nicolas Harmand.</p>
+                <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 4px;">Published with Antigravity</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const titles = {
+            fr: "Parcours — Nicolas Harmand",
+            en: "Journey — Nicolas Harmand"
+        };
+        const toggleLangBtn = document.getElementById('lang-toggle');
+
+        function updateMeta(lang) {
+            document.documentElement.lang = lang;
+            document.title = titles[lang];
+        }
+
+        function setLanguage(lang) {
+            updateMeta(lang);
+            localStorage.setItem('preferred-lang', lang);
+        }
+
+        toggleLangBtn.addEventListener('click', () => {
+            const currentLang = document.documentElement.lang || 'fr';
+            const newLang = currentLang === 'fr' ? 'en' : 'fr';
+            setLanguage(newLang);
+        });
+
+        const savedLang = localStorage.getItem('preferred-lang') || 'fr';
+        setLanguage(savedLang);
+    </script>
+</body>
+</html>

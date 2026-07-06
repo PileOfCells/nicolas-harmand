@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recherche — Nicolas Harmand</title>
+    <meta name="description" content="Axes de recherche de Nicolas Harmand : microrhéométrie et forces mécaniques de la matière active biologique.">
+    <link rel="stylesheet" href="style.css?v=2.0.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Barre de navigation latérale -->
+    <header class="sidebar">
+        <a href="index.html" class="nav-logo">Nicolas Harmand</a>
+        <p class="nav-subtitle">
+            <span class="lang-fr">Chercheur au CNRS<br>Sorbonne Université</span>
+            <span class="lang-en">CNRS Research Fellow<br>Sorbonne Université</span>
+        </p>
+        <nav class="nav-menu">
+            <a href="index.html" class="nav-link">
+                <span class="lang-fr">À propos</span>
+                <span class="lang-en">About me</span>
+            </a>
+            <a href="research.html" class="nav-link active">
+                <span class="lang-fr">Recherche</span>
+                <span class="lang-en">Research</span>
+            </a>
+            <a href="publications.html" class="nav-link">
+                <span class="lang-fr">Publications</span>
+                <span class="lang-en">Publications</span>
+            </a>
+            <a href="people.html" class="nav-link">
+                <span class="lang-fr">People</span>
+                <span class="lang-en">People</span>
+            </a>
+            <a href="about.html" class="nav-link">
+                <span class="lang-fr">Parcours</span>
+                <span class="lang-en">About me</span>
+            </a>
+            <a href="opportunities.html" class="nav-link">
+                <span class="lang-fr">Opportunités</span>
+                <span class="lang-en">Opportunities</span>
+            </a>
+            
+            <button id="lang-toggle" class="lang-btn" aria-label="Changer de langue / Switch language">
+                <span class="lang-fr">English</span>
+                <span class="lang-en">Français</span>
+            </button>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="section" style="padding-top: 20px;">
+            <h1 class="section-title">
+                <span class="lang-fr">Recherche</span>
+                <span class="lang-en">Research</span>
+            </h1>
+            
+            <div class="research-intro">
+                <p class="lang-fr" style="margin-bottom: 2rem; font-size: 1.15rem; line-height: 1.8;">
+                    <strong>Comment l'hétérogénéité cellulaire et la mécanique tissulaire s'influencent-elles mutuellement ?</strong><br><br>
+                    Les tissus biologiques sont des matériaux actifs et hétérogènes. Que ce soit au cours de l'embryogenèse ou de la progression tumorale, la manière dont les propriétés mécaniques (déformations, écoulements) et les hétérogénéités cellulaires (adhésion, contractilité) rétroagissent reste largement incomprise. Mes recherches visent à sonder ces rétroactions en développant des cadres expérimentaux robustes, à l'interface entre la physique de la matière molle et la biologie du développement.
+                </p>
+                <p class="lang-en" style="margin-bottom: 2rem; font-size: 1.15rem; line-height: 1.8;">
+                    <strong>How do cellular heterogeneity and tissue mechanics mutually influence each other?</strong><br><br>
+                    Biological tissues are active and heterogeneous materials. Whether during embryogenesis or tumor progression, the way mechanical properties (deformations, flows) and cellular heterogeneities (adhesion, contractility) feedback on each other remains largely misunderstood. My research aims to probe these feedbacks by developing robust experimental frameworks at the interface between soft matter physics and developmental biology.
+                </p>
+            </div>
+
+            <div class="grid-research">
+                <!-- Axe 1 -->
+                <a href="research-microrheometry.html" class="research-card">
+                    <img src="images/stress_sensors.jpg" alt="Stress sensors in embryonic tissue" class="research-thumb">
+                    <div class="research-card-content">
+                        <h3>
+                            <span class="lang-fr">Microrhéométrie & Forces tissulaires</span>
+                            <span class="lang-en">Microrheometry & Tissue Forces</span>
+                        </h3>
+                        <p class="lang-fr">Mesurer la rhéologie in situ de la matrice extracellulaire en cours de développement via des inclusions ferrofluides actives.</p>
+                        <p class="lang-en">Probing in situ rheology of the extracellular matrix during development using active ferrofluid inclusions.</p>
+                    </div>
+                </a>
+                
+                <!-- Axe 2 -->
+                <a href="research-epithelia.html" class="research-card">
+                    <img src="images/epithelia_shape.jpg" alt="Epithelial cells shape on curvature" class="research-thumb">
+                    <div class="research-card-content">
+                        <h3>
+                            <span class="lang-fr">Mécanique des tissus épithéliaux</span>
+                            <span class="lang-en">Epithelial Tissue Mechanics</span>
+                        </h3>
+                        <p class="lang-fr">Explorer comment la courbure physique des substrats dicte la forme 3D et les tensions de surface des monocouches cellulaires.</p>
+                        <p class="lang-en">Exploring how physical curvature of substrates dictates the 3D shape and surface tensions of cell monolayers.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-contact">
+                <p><strong>Nicolas Harmand</strong></p>
+                <p><span class="lang-fr">Laboratoire Jean Perrin (UMR 8237) — Sorbonne Université & CNRS</span><span class="lang-en">Laboratoire Jean Perrin (UMR 8237) — Sorbonne Université & CNRS</span></p>
+                <p><span class="lang-fr">Tours 32-42, Bureau 503, 4 Place Jussieu, 75005 Paris, France</span><span class="lang-en">Tours 32-42, Office 503, 4 Place Jussieu, 75005 Paris, France</span></p>
+                <p>Email: <a href="mailto:nicolas.harmand@sorbonne-universite.fr">nicolas.harmand@sorbonne-universite.fr</a></p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 Nicolas Harmand.</p>
+                <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 4px;">Published with Antigravity</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const titles = {
+            fr: "Recherche — Nicolas Harmand",
+            en: "Research — Nicolas Harmand"
+        };
+        const toggleLangBtn = document.getElementById('lang-toggle');
+
+        function updateMeta(lang) {
+            document.documentElement.lang = lang;
+            document.title = titles[lang];
+        }
+
+        function setLanguage(lang) {
+            updateMeta(lang);
+            localStorage.setItem('preferred-lang', lang);
+        }
+
+        toggleLangBtn.addEventListener('click', () => {
+            const currentLang = document.documentElement.lang || 'fr';
+            const newLang = currentLang === 'fr' ? 'en' : 'fr';
+            setLanguage(newLang);
+        });
+
+        const savedLang = localStorage.getItem('preferred-lang') || 'fr';
+        setLanguage(savedLang);
+    </script>
+</body>
+</html>

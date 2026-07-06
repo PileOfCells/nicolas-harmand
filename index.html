@@ -12,12 +12,11 @@
     <title>Nicolas Harmand — Chercheur en Biophysique & Matière Molle</title>
     <meta name="description" content="Site académique de Nicolas Harmand, chercheur en biophysique, mécanobiologie & matière molle (Laboratoire Jean Perrin, Sorbonne Université / CNRS).">
     
-    <!-- Versioning du fichier CSS : changez ?v=1.0.0 par ?v=1.0.1 (etc.) si vous modifiez style.css -->
-    <link rel="stylesheet" href="style.css?v=1.0.0">
+    <link rel="stylesheet" href="style.css?v=2.0.0">
     <!-- Google Fonts: Inter pour une esthétique épurée et moderne -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -29,27 +28,30 @@
             <span class="lang-en">CNRS Research Fellow<br>Sorbonne Université</span>
         </p>
         <nav class="nav-menu">
-            <a href="index.html#about" class="nav-link active">
+            <a href="index.html" class="nav-link active">
                 <span class="lang-fr">À propos</span>
                 <span class="lang-en">About me</span>
             </a>
-            <a href="index.html#research" class="nav-link">
+            <a href="research.html" class="nav-link">
                 <span class="lang-fr">Recherche</span>
                 <span class="lang-en">Research</span>
             </a>
-            <a href="index.html#publications" class="nav-link">
+            <a href="publications.html" class="nav-link">
                 <span class="lang-fr">Publications</span>
                 <span class="lang-en">Publications</span>
             </a>
-            <a href="index.html#integration" class="nav-link">
-                <span class="lang-fr">Collaborations</span>
-                <span class="lang-en">Collaborations</span>
+            <a href="people.html" class="nav-link">
+                <span class="lang-fr">People</span>
+                <span class="lang-en">People</span>
             </a>
-            <a href="index.html#journey" class="nav-link">
+            <a href="about.html" class="nav-link">
                 <span class="lang-fr">Parcours</span>
-                <span class="lang-en">Journey</span>
+                <span class="lang-en">About me</span>
             </a>
-            <a href="index.html#contact" class="nav-link">Contact</a>
+            <a href="opportunities.html" class="nav-link">
+                <span class="lang-fr">Opportunités</span>
+                <span class="lang-en">Opportunities</span>
+            </a>
             
             <!-- Bouton de changement de langue -->
             <button id="lang-toggle" class="lang-btn" aria-label="Changer de langue / Switch language">
@@ -62,345 +64,91 @@
     <main class="main-content">
         <!-- Section Hero / À propos -->
         <section id="about" class="hero-section">
-            <div class="hero-text">
+            <div class="hero-container">
+                <div class="hero-text">
+                    <h1>Nicolas Harmand</h1>
+                    
+                    <p class="subtitle">
+                        <span class="lang-fr">Chercheur en physique du vivant</span>
+                        <span class="lang-en">Researcher in Physics of Living Systems</span>
+                    </p>
+                    
+                    <p class="institution">Laboratoire Jean Perrin — Sorbonne Université / CNRS, Paris</p>
+                    
+                    <!-- Logos Institutionnels -->
+                    <div class="hero-logos">
+                        <img src="images/logo_LJP.png" alt="Logo Laboratoire Jean Perrin" class="inst-logo">
+                        <img src="images/LOGO_SU_HORIZ_SEUL_CMJN.jpg" alt="Logo Sorbonne Université" class="inst-logo">
+                        <img src="images/LOGO_CNRS_BLEU.png" alt="Logo CNRS" class="inst-logo">
+                    </div>
+                    
+                    <p class="bio lang-fr">
+                        J'utilise les concepts de la physique et de la physico-chimie de la matière molle pour comprendre le vivant. Mon approche repose sur des expériences visant à éprouver les modèles existants ou co-construits avec des théoriciens (notamment mécaniques), afin d'en tester les limites de validité ou d'en dégager de nouveaux principes fondamentaux.<br><br>
+                        Ingénieur ESPCI de formation et docteur en biophysique, après un passage par la R&D industrielle (Saint-Gobain), je travaille aujourd'hui au Laboratoire Jean Perrin. Mes travaux actuels s'appuient sur des approches expérimentales (notamment des gouttes senseurs de force) et de la modélisation pour explorer la physique de la morphogenèse.
+                    </p>
+                    <p class="bio lang-en">
+                        I apply the concepts of soft matter physics and physical chemistry to understand living systems. My approach relies on experiments designed to test existing physical models, or models co-developed with theorists (particularly mechanical models), in order to test their limits of validity or uncover new fundamental mechanisms.<br><br>
+                        With a background as an ESPCI engineer and a PhD in biophysics, followed by a period in industrial R&D (Saint-Gobain), I now work at the Laboratoire Jean Perrin. My current work combines experimental approaches (specifically force-sensing droplets) and modeling to explore the physics of morphogenesis.
+                    </p>
 
-                <h1>Nicolas Harmand</h1>
-                
-                <p class="subtitle">
-                    <span class="lang-fr">Chercheur en physique du vivant</span>
-                    <span class="lang-en">Researcher in Physics of Living Systems</span>
-                </p>
-                
-                <p class="institution">Laboratoire Jean Perrin — Sorbonne Université / CNRS, Paris</p>
-                
-                <!-- Logos Institutionnels -->
-                <div class="hero-logos">
-                    <img src="images/logo_LJP.png" alt="Logo Laboratoire Jean Perrin" class="inst-logo">
-                    <img src="images/LOGO_SU_HORIZ_SEUL_CMJN.jpg" alt="Logo Sorbonne Université" class="inst-logo">
-                    <img src="images/LOGO_CNRS_BLEU.png" alt="Logo CNRS" class="inst-logo">
+                    <!-- Liens vers profils académiques -->
+                    <div class="links-wrapper">
+                        <a href="mailto:nicolas.harmand@sorbonne-universite.fr" class="btn btn-primary">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                            Email
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=hyk97zcAAAAJ&hl=fr" target="_blank" rel="noopener" class="btn btn-secondary">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/><path d="M6 14h10"/><path d="M6 18h10"/></svg>
+                            Google Scholar
+                        </a>
+                        <a href="https://orcid.org/0000-0001-7263-9792" target="_blank" rel="noopener" class="btn btn-secondary">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 11h4v4h-4z"/><path d="M12 8h4v8h-4z"/></svg>
+                            ORCID
+                        </a>
+                        <a href="cv.pdf" target="_blank" rel="noopener" class="btn btn-secondary">
+                            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+                            <span class="lang-fr">Télécharger le CV PDF</span>
+                            <span class="lang-en">Download CV PDF</span>
+                        </a>
+                    </div>
                 </div>
-                
-                <p class="bio lang-fr">
-                    J'utilise les concepts de la physique et de la physico-chimie de la matière molle pour comprendre le vivant. Mon approche repose sur des expériences visant à éprouver les modèles existants ou co-construits avec des théoriciens (notamment mécaniques), afin d'en tester les limites de validité ou d'en dégager de nouveaux principes fondamentaux.<br><br>
-                    Ingénieur ESPCI de formation et docteur en biophysique, après un passage par la R&D industrielle (Saint-Gobain), je travaille aujourd'hui au Laboratoire Jean Perrin. Mes travaux actuels s'appuient sur des approches expérimentales (notamment des gouttes senseurs de force) et de la modélisation pour explorer la physique de la morphogenèse.
-                </p>
-                <p class="bio lang-en">
-                    I apply the concepts of soft matter physics and physical chemistry to understand living systems. My approach relies on experiments designed to test existing physical models, or models co-developed with theorists (particularly mechanical models), in order to test their limits of validity or uncover new fundamental mechanisms.<br><br>
-                    With a background as an ESPCI engineer and a PhD in biophysics, followed by a period in industrial R&D (Saint-Gobain), I now work at the Laboratoire Jean Perrin. My current work combines experimental approaches (specifically force-sensing droplets) and modeling to explore the physics of morphogenesis.
-                </p>
-
-                <!-- Liens vers profils académiques -->
-                <div class="links-wrapper">
-                    <a href="mailto:nicolas.harmand@sorbonne-universite.fr" class="btn btn-primary">
-                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
-                        Email
-                    </a>
-                    <a href="https://scholar.google.com/citations?user=hyk97zcAAAAJ&hl=fr" target="_blank" rel="noopener" class="btn btn-secondary">
-                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z"/><path d="M6 6h10"/><path d="M6 10h10"/><path d="M6 14h10"/><path d="M6 18h10"/></svg>
-                        Google Scholar
-                    </a>
-                    <a href="https://orcid.org/0000-0001-7263-9792" target="_blank" rel="noopener" class="btn btn-secondary">
-                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 11h4v4h-4z"/><path d="M12 8h4v8h-4z"/></svg>
-                        ORCID
-                    </a>
-                    <a href="cv.pdf" target="_blank" rel="noopener" class="btn btn-secondary">
-                        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
-                        <span class="lang-fr">Télécharger le CV PDF</span>
-                        <span class="lang-en">Download CV PDF</span>
-                    </a>
+                <div class="hero-photo-wrapper">
+                    <img src="images/IMG20250405193133_crop.jpg" alt="Nicolas Harmand" class="hero-photo">
                 </div>
             </div>
         </section>
 
-
-        <!-- Section Recherche -->
-        <section id="research" class="section">
+        <!-- Section Intérêts de Recherche -->
+        <section class="section">
             <h2 class="section-title">
-                <span class="lang-fr">Recherche</span>
-                <span class="lang-en">Research</span>
+                <span class="lang-fr">Intérêts de Recherche</span>
+                <span class="lang-en">Research Interests</span>
             </h2>
-            
-            <div class="research-intro">
-                <p class="lang-fr" style="margin-bottom: 1.5rem;">
-                    <strong>Comment l'hétérogénéité cellulaire et la mécanique tissulaire s'influencent-elles mutuellement ?</strong><br>
-                    Les tissus biologiques sont des matériaux actifs et hétérogènes. Que ce soit au cours de l'embryogenèse ou de la progression tumorale, la manière dont les propriétés mécaniques (déformations, écoulements) et les hétérogénéités cellulaires (adhésion, contractilité) rétroagissent reste largement incomprise. Je développe un cadre expérimental modèle-agnostique pour relier déformations tissulaires globales et réarrangements topologiques locaux, et j'étudie la dynamique d'écoulement de populations cellulaires distinctes.
-                </p>
-                <p class="lang-en" style="margin-bottom: 1.5rem;">
-                    <strong>How do cellular heterogeneity and tissue mechanics mutually influence each other?</strong><br>
-                    Biological tissues are active and heterogeneous materials. Whether during embryogenesis or tumor progression, the way mechanical properties (deformations, flows) and cellular heterogeneities (adhesion, contractility) feedback on each other remains largely misunderstood. I develop a model-agnostic experimental framework linking global tissue deformations to local topological rearrangements, and I study the flow dynamics of distinct cellular populations.
-                </p>
-            </div>
-
-            <div class="grid-research">
-                <!-- Axe 1 -->
-                <a href="research-microrheometry.html" class="research-card">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22c5.523 0 10-4.477 10-10S17.523 2 12 2 2 6.477 2 12s4.477 10 10 10z"/><path d="M12 6v12"/><path d="M6 12h12"/></svg>
-                    </div>
-                    <h3>
-                        <span class="lang-fr">Microrhéométrie & Forces tissulaires</span>
-                        <span class="lang-en">Microrheometry & Tissue Forces</span>
-                    </h3>
-                    <p class="lang-fr">Développement de techniques de microrhéométrie in situ lors de l'embryogenèse (utilisation de gouttes ferrofluides).</p>
-                    <p class="lang-en">Development of in situ microrheometry techniques during embryogenesis (using ferrofluid droplets).</p>
-                </a>
-                
-                <!-- Axe 2 -->
-                <a href="research-epithelia.html" class="research-card">
-                    <div class="card-icon">
-                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
-                    </div>
-                    <h3>
-                        <span class="lang-fr">Mécanique des tissus épithéliaux</span>
-                        <span class="lang-en">Epithelial Tissue Mechanics</span>
-                    </h3>
-                    <p class="lang-fr">Étude de la forme 3D et de l'épaisseur des cellules épithéliales sur des substrats courbes via des modèles continus.</p>
-                    <p class="lang-en">Study of the 3D shape and thickness of epithelial cells on curved substrates through continuous models.</p>
-                </a>
-            </div>
+            <ul class="bullet-list lang-fr">
+                <li><strong>Microrhéométrie & Forces tissulaires :</strong> Mesure des forces mécaniques de la matrice extracellulaire via des senseurs de force ferrofluides in situ lors du développement embryonnaire.</li>
+                <li><strong>Mécanique des tissus épithéliaux :</strong> Compréhension de la forme 3D et des contraintes d'épaisseur des cellules épithéliales sur des courbures physiques en s'appuyant sur des modèles de matière molle.</li>
+            </ul>
+            <ul class="bullet-list lang-en">
+                <li><strong>Microrheometry & Tissue Forces:</strong> Measuring mechanical forces of the extracellular matrix using in situ ferrofluid force sensors during embryonic development.</li>
+                <li><strong>Epithelial Tissue Mechanics:</strong> Understanding the 3D shape and thickness constraints of epithelial cells on physical curvatures using soft matter models.</li>
+            </ul>
         </section>
 
-        <!-- Section Publications & Brevets -->
-        <section id="publications" class="section">
+        <!-- Section Éducation Simplifiée -->
+        <section class="section">
             <h2 class="section-title">
-                <span class="lang-fr">Publications & Brevets</span>
-                <span class="lang-en">Publications & Patents</span>
-            </h2>
-            
-            <div class="publication-group">
-                <h3 class="group-title">
-                    <span class="lang-fr">Articles dans des revues internationales à comité de lecture (RICL)</span>
-                    <span class="lang-en">Articles in peer-reviewed international journals</span>
-                </h3>
-                <div class="pub-list">
-                    <!-- Pub 1 -->
-                    <div class="pub-item">
-                        <span class="pub-year">2026</span>
-                        <div class="pub-details">
-                            <h4 class="pub-title">Design and optimization of in situ self-functionalizing stress sensors</h4>
-                            <p class="pub-authors">O. Vasiljevic*, <strong>N. Harmand*</strong>, et al. 
-                                <span class="note lang-fr">(*Contributions égales)</span>
-                                <span class="note lang-en">(*Equal contributions)</span>
-                            </p>
-                            <p class="pub-journal"><em>The European Physical Journal E</em>, 49, 12, 2026.</p>
-                            <div class="pub-links">
-                                <a href="https://doi.org/10.1140/epje/s10189-025-00550-y" target="_blank" rel="noopener" class="pub-link-btn">DOI / Publication</a>
-                            </div>
-                        </div>
-                        <div class="pub-image-container">
-                            <img src="images/stress_sensors.jpg" alt="Design and optimization of in situ self-functionalizing stress sensors" class="pub-image">
-                        </div>
-                    </div>
-
-                    <!-- Pub 2 -->
-                    <div class="pub-item">
-                        <span class="pub-year">2022</span>
-                        <div class="pub-details">
-                            <h4 class="pub-title">Thickness of epithelia on wavy substrates: measurements and continuous models</h4>
-                            <p class="pub-authors"><strong>N. Harmand</strong>, J. Dervaux, C. Poulard, S. Hénon</p>
-                            <p class="pub-journal"><em>The European Physical Journal E</em>, 45 (6), 53, 2022.</p>
-                            <span class="highlight-tag">Journal Cover</span>
-                            <div class="pub-links">
-                                <a href="https://doi.org/10.1140/epje/s10189-022-00206-1" target="_blank" rel="noopener" class="pub-link-btn">DOI / Publication</a>
-                            </div>
-                        </div>
-                        <div class="pub-image-container">
-                            <img src="images/epithelia_thickness.jpg" alt="Thickness of epithelia on wavy substrates" class="pub-image">
-                        </div>
-                    </div>
-
-                    <!-- Pub 3 -->
-                    <div class="pub-item">
-                        <span class="pub-year">2021</span>
-                        <div class="pub-details">
-                            <h4 class="pub-title">3D shape of epithelial cells on curved substrates</h4>
-                            <p class="pub-authors"><strong>N. Harmand</strong>, A. Huang, S. Hénon</p>
-                            <p class="pub-journal"><em>Physical Review X</em>, 11 (3), 031028, 2021.</p>
-                            <span class="highlight-tag">PRX's Highlights</span>
-                            <div class="pub-links">
-                                <a href="https://doi.org/10.1103/PhysRevX.11.031028" target="_blank" rel="noopener" class="pub-link-btn">DOI / Publication</a>
-                            </div>
-                        </div>
-                        <div class="pub-image-container">
-                            <img src="images/epithelia_shape.jpg" alt="3D shape of epithelial cells on curved substrates" class="pub-image">
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="publication-group">
-                <h3 class="group-title">
-                    <span class="lang-fr">Brevets internationaux</span>
-                    <span class="lang-en">International Patents</span>
-                </h3>
-                <div class="pub-list">
-                    <!-- Brevet 1 -->
-                    <div class="pub-item patent">
-                        <span class="pub-year">2024</span>
-                        <div class="pub-details">
-                            <h4 class="pub-title">Print Head for a System for Three-Dimensional Printing of Material</h4>
-                            <p class="pub-authors">G. Espy, R. Danguillaume, W. Bourennane, <strong>N. Harmand</strong></p>
-                            <p class="pub-journal lang-fr">Brevet International — WO 2024/256462 A1 </p>
-                            <p class="pub-journal lang-en">International Patent — WO 2024/256462 A1 </p>
-                        </div>
-                    </div>
-
-                    <!-- Brevet 2 -->
-                    <div class="pub-item patent">
-                        <span class="pub-year">2024</span>
-                        <div class="pub-details">
-                            <h4 class="pub-title">3D Printing System With Bypass</h4>
-                            <p class="pub-authors">G. Espy, R. Danguillaume, W. Bourennane, <strong>N. Harmand</strong></p>
-                            <p class="pub-journal lang-fr">Brevet Européen — EP 4477374 A1</p>
-                            <p class="pub-journal lang-en">European Patent — EP 4477374 A1</p>
-                        </div>
-                    </div>
-
-                    <!-- Brevet 3 -->
-                    <div class="pub-item patent">
-                        <span class="pub-year">2023</span>
-                        <div class="pub-details">
-                            <h4 class="pub-title">Control of 3D Printing</h4>
-                            <p class="pub-authors"><strong>N. Harmand</strong>, F. Zami-Pierre, R. Danguillaume, G. Saingier</p>
-                            <p class="pub-journal lang-fr">Brevet International — WO 2023/025857 A1</p>
-                            <p class="pub-journal lang-en">International Patent — WO 2023/025857 A1</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="publication-group">
-                <h3 class="group-title">
-                    <span class="lang-fr">Conférences (Sélection)</span>
-                    <span class="lang-en">Selected Conferences</span>
-                </h3>
-                <ul class="conf-list">
-                    <li>
-                        <strong>GDR Approche Quantitative du Vivant (2026)</strong> — 
-                        <span class="lang-fr">Communication Orale</span>
-                        <span class="lang-en">Oral Presentation</span>
-                    </li>
-                    <li>
-                        <strong>Workshop Biomechanics from cells to tissues (2019)</strong> — 
-                        <span class="lang-fr">Communication Orale <span class="note-invited">(Invité)</span></span>
-                        <span class="lang-en">Oral Presentation <span class="note-invited">(Invited)</span></span>
-                    </li>
-                    <li>
-                        <strong>GDR CellTiss : de la Cellule au Tissu (2019)</strong> — 
-                        <span class="lang-fr">Communication Orale</span>
-                        <span class="lang-en">Oral Presentation</span>
-                    </li>
-                    <li>
-                        <strong>Symposium "Actomyosine et adhésion" (2018)</strong> — 
-                        <span class="lang-fr">Communication Orale <span class="note-invited">(Invité)</span></span>
-                        <span class="lang-en">Oral Presentation <span class="note-invited">(Invited)</span></span>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Section Collaborations -->
-        <section id="integration" class="section">
-            <h2 class="section-title">
-                <span class="lang-fr">Collaborations</span>
-                <span class="lang-en">Collaborations</span>
-            </h2>
-            <div class="distinctions-container">
-                
-                <div class="dist-column">
-                    <h3>
-                        <span class="lang-fr">Collaborations & Réseau Scientifique</span>
-                        <span class="lang-en">Collaborations & Scientific Network</span>
-                    </h3>
-                    <ul class="bullet-list lang-fr">
-                        <li><strong>Théorie & Modélisation :</strong> R. Voituriez (LJP), J. O'Byrne (LJP), Y.-E. Keta (PMMH), P. Marcq (PMMH).</li>
-                        <li><strong>Biophysique Expérimentale :</strong> L.-L. Pontani (LJP), O. du Roure & J. Heuvingh (PMMH), D. Talbot (PHENIX).</li>
-                        <li><strong>Biologie Cellulaire & Développement :</strong> I. Bonnet (Inst. Curie), W. Xiao, M. Bréau & C. Currantz (Dev2A).</li>
-                        <li><strong>Expérience Industrielle (Saint-Gobain R&D) :</strong> 3.5 années en recherche appliquée ayant conduit au dépôt de 3 brevets internationaux, forgeant une approche de la recherche ancrée dans la robustesse expérimentale.</li>
-                    </ul>
-                    <ul class="bullet-list lang-en">
-                        <li><strong>Theory & Modeling:</strong> R. Voituriez (LJP), J. O'Byrne (LJP), Y.-E. Keta (PMMH), P. Marcq (PMMH).</li>
-                        <li><strong>Experimental Biophysics:</strong> L.-L. Pontani (LJP), O. du Roure & J. Heuvingh (PMMH), D. Talbot (PHENIX).</li>
-                        <li><strong>Cellular & Developmental Biology:</strong> I. Bonnet (Inst. Curie), W. Xiao, M. Bréau & C. Currantz (Dev2A).</li>
-                        <li><strong>Industrial Experience (Saint-Gobain R&D):</strong> 3.5 years in applied research leading to 3 international patents, forging a research approach rooted in experimental robustness.</li>
-                    </ul>
-                </div>
-
-                <div class="dist-column">
-                    <h3>
-                        <span class="lang-fr">Service, Mentorat & Financements</span>
-                        <span class="lang-en">Service, Mentoring & Funding</span>
-                    </h3>
-                    <ul class="bullet-list lang-fr">
-                        <li><strong>Financements & Prix :</strong> Projet interlaboratoire IBPS (2026, 20k€), Lauréat "La preuve par l'image" (CNRS, 2019), "Beautiful Science" (SFP, 2019).</li>
-                        <li><strong>Service à la communauté :</strong> Reviewer scientifique (<em>iScience</em>, Cell Press), Co-organisateur du symposium <em>Dynamics of extra-cellular matrix</em> (2024).</li>
-                        <li><strong>Enseignement & Mentorat :</strong> Co-encadrement de 9 étudiants (du M1 au Doctorat). 12h de Cours Magistral (Master, 2025-2026), 91h de TP (ESPCI).</li>
-                        <li><strong>Science Ouverte :</strong> Rédaction de la page Wikipédia francophone de référence pour les <a href="https://fr.wikipedia.org/wiki/Cellule_MDCK" target="_blank" rel="noopener">Cellules MDCK</a>.</li>
-                    </ul>
-                    <ul class="bullet-list lang-en">
-                        <li><strong>Funding & Awards:</strong> IBPS inter-laboratory project (2026, €20k), Winner "La preuve par l'image" (CNRS, 2019), "Beautiful Science" (SFP, 2019).</li>
-                        <li><strong>Community Service:</strong> Scientific reviewer (<em>iScience</em>, Cell Press), Co-organizer of the <em>Dynamics of extra-cellular matrix</em> symposium (2024).</li>
-                        <li><strong>Teaching & Mentoring:</strong> Co-mentoring of 9 students (from M1 to PhD). 12h of Master's Lectures (2025-2026), 91h of practicals (ESPCI).</li>
-                        <li><strong>Open Science:</strong> Redacted the reference French Wikipedia page for <a href="https://fr.wikipedia.org/wiki/Cellule_MDCK" target="_blank" rel="noopener">MDCK cells</a>.</li>
-                    </ul>
-                </div>
-
-            </div>
-        </section>
-
-        <!-- Section Parcours Académique -->
-        <section id="journey" class="section">
-            <h2 class="section-title">
-                <span class="lang-fr">Parcours</span>
-                <span class="lang-en">Journey</span>
+                <span class="lang-fr">Éducation</span>
+                <span class="lang-en">Education</span>
             </h2>
             <div class="timeline">
-                <div class="timeline-item">
-                    <span class="time-period">2024 — Présent</span>
-                    <div class="time-details">
-                        <h4>
-                            <span class="lang-fr">Post-doctorant</span>
-                            <span class="lang-en">Postdoctoral Researcher</span>
-                        </h4>
-                        <p class="location">Sorbonne Université (Laboratoire Jean Perrin) — Paris</p>
-                        <p class="description lang-fr">Recherche sur la microrhéométrie de la matrice extracellulaire pendant l'embryogenèse.</p>
-                        <p class="description lang-en">Research on microrheometry of the extracellular matrix during embryogenesis.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <span class="time-period">2020 — 2024</span>
-                    <div class="time-details">
-                        <h4>
-                            <span class="lang-fr">Ingénieur de recherche</span>
-                            <span class="lang-en">R&D Research Engineer</span>
-                        </h4>
-                        <p class="location">Saint-Gobain Recherche Paris — Aubervilliers</p>
-                        <p class="description lang-fr">Recherche appliquée en physique des procédés industriels (3 brevets déposés).</p>
-                        <p class="description lang-en">Applied research in industrial process physics (3 patents filed).</p>
-                    </div>
-                </div>
                 <div class="timeline-item">
                     <span class="time-period">2016 — 2020</span>
                     <div class="time-details">
                         <h4>
-                            <span class="lang-fr">Doctorat & Post-doctorat de transition</span>
-                            <span class="lang-en">PhD & Transition Postdoc</span>
+                            <span class="lang-fr">Doctorat en Biophysique</span>
+                            <span class="lang-en">PhD in Biophysics</span>
                         </h4>
-                        <p class="location">Université Paris Diderot / Laboratoire MSC — Paris</p>
-                        <p class="description lang-fr">Soutenance d'une thèse en biophysique sur la mécanique et la forme des cellules épithéliales.</p>
-                        <p class="description lang-en">PhD thesis in biophysics on the mechanics and shape of epithelial cells.</p>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <span class="time-period">2015</span>
-                    <div class="time-details">
-                        <h4>
-                            <span class="lang-fr">Stage de recherche</span>
-                            <span class="lang-en">Research Internship</span>
-                        </h4>
-                        <p class="location">Stanford University (Prakash Lab) — USA</p>
-                        <p class="description lang-fr">Observation et modélisation de défauts topologiques dans les colonies bactériennes actives (4 mois).</p>
-                        <p class="description lang-en">Observation and modeling of topological defects in active bacterial colonies (4 months).</p>
+                        <p class="location">Université Paris Diderot — Laboratoire MSC, Paris</p>
                     </div>
                 </div>
                 <div class="timeline-item">
@@ -411,48 +159,26 @@
                             <span class="lang-en">Engineering Degree & M2 ICFP</span>
                         </h4>
                         <p class="location">ESPCI Paris / Sorbonne Université — Paris</p>
-                        <p class="description lang-fr">Formation pluridisciplinaire en physique, chimie et biologie. Majeure en physique.</p>
-                        <p class="description lang-en">Multidisciplinary training in physics, chemistry, and biology. Physics major.</p>
-                    </div>
-                </div>
-            </div>
-            
-            <div style="margin-top: 2.5rem;">
-                <h4 style="margin-bottom: 1.5rem; color: var(--text-primary); font-size: 1.1rem;">
-                    <span class="lang-fr">Sélection de distinctions :</span>
-                    <span class="lang-en">Selected Distinctions:</span>
-                </h4>
-                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
-                    <span class="badge" style="margin-bottom:0;">🏆 Finaliste national des Olympiades de Physique (2011)</span>
-                    <span class="badge" style="margin-bottom:0;">🌟 Nikon Small World in Motion (2015)</span>
-                    <span class="badge" style="margin-bottom:0;">🥇 Lauréat CNRS "La preuve par l'image" (2019)</span>
-                </div>
-            </div>
-        </section>
-
-        <!-- Section Contact -->
-        <section id="contact" class="section">
-            <h2 class="section-title">Contact</h2>
-            <div class="contact-card">
-                <p class="lang-fr">N'hésitez pas à me contacter pour toute question scientifique, collaboration ou échange concernant mes travaux.</p>
-                <p class="lang-en">Feel free to contact me for any scientific questions, collaborations, or inquiries regarding my research.</p>
-                
-                <div class="contact-info">
-                    <div class="contact-method">
-                        <svg class="icon-contact" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
-                        <span><a href="mailto:nicolas.harmand@sorbonne-universite.fr">nicolas.harmand@sorbonne-universite.fr</a></span>
-                    </div>
-                    <div class="contact-method">
-                        <svg class="icon-contact" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                        <span>Laboratoire Jean Perrin, Sorbonne Université, Tour 32-42, 4 Place Jussieu, 75005 Paris</span>
                     </div>
                 </div>
             </div>
         </section>
     </main>
 
+    <!-- Footer enrichi avec contact et adresse -->
     <footer class="footer">
-        <p>&copy; 2026 Nicolas Harmand.</p>
+        <div class="footer-container">
+            <div class="footer-contact">
+                <p><strong>Nicolas Harmand</strong></p>
+                <p><span class="lang-fr">Laboratoire Jean Perrin (UMR 8237) — Sorbonne Université & CNRS</span><span class="lang-en">Laboratoire Jean Perrin (UMR 8237) — Sorbonne Université & CNRS</span></p>
+                <p><span class="lang-fr">Tours 32-42, Bureau 503, 4 Place Jussieu, 75005 Paris, France</span><span class="lang-en">Tours 32-42, Office 503, 4 Place Jussieu, 75005 Paris, France</span></p>
+                <p>Email: <a href="mailto:nicolas.harmand@sorbonne-universite.fr">nicolas.harmand@sorbonne-universite.fr</a></p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 Nicolas Harmand.</p>
+                <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 4px;">Published with Antigravity</p>
+            </div>
+        </div>
     </footer>
 
     <!-- Script de gestion de la langue -->
@@ -469,11 +195,8 @@
         const toggleLangBtn = document.getElementById('lang-toggle');
 
         function updateMeta(lang) {
-            // Mise à jour de la langue principale de la page
             document.documentElement.lang = lang;
-            // Mise à jour du titre de l'onglet
             document.title = titles[lang];
-            // Mise à jour de la méta-description pour le référencement (SEO)
             const metaDesc = document.querySelector('meta[name="description"]');
             if (metaDesc) {
                 metaDesc.setAttribute('content', descriptions[lang]);
@@ -491,7 +214,6 @@
             setLanguage(newLang);
         });
 
-        // Initialisation de la langue au chargement de la page
         const savedLang = localStorage.getItem('preferred-lang') || 'fr';
         setLanguage(savedLang);
     </script>
