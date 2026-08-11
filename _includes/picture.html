@@ -1,0 +1,22 @@
+{%- comment -%}
+  Rend une image responsive AVIF + WebP.
+  Les variantes sont générées par tools/optimize-images.sh selon la convention
+  assets/img/<name>-<width>.<ext>.
+
+  Paramètres : name, widths ("400,800"), sizes, w, h, alt,
+               class, loading ("lazy" par défaut), priority (booléen).
+{%- endcomment -%}
+{%- assign ws = include.widths | default: "400,800" | split: "," -%}
+{%- assign last = ws | last -%}
+{%- capture dir %}{{ '/assets/img/' | relative_url }}{{ include.name }}{% endcapture -%}
+<picture>
+  <source type="image/avif" sizes="{{ include.sizes }}" srcset="{% for w in ws %}{{ dir }}-{{ w }}.avif {{ w }}w{% unless forloop.last %}, {% endunless %}{% endfor %}">
+  <img src="{{ dir }}-{{ last }}.webp"
+       sizes="{{ include.sizes }}"
+       srcset="{% for w in ws %}{{ dir }}-{{ w }}.webp {{ w }}w{% unless forloop.last %}, {% endunless %}{% endfor %}"
+       width="{{ include.w }}" height="{{ include.h }}"
+       alt="{{ include.alt | escape }}"
+       {% if include.class %}class="{{ include.class }}"{% endif %}
+       loading="{{ include.loading | default: 'lazy' }}"
+       decoding="async"{% if include.priority %} fetchpriority="high"{% endif %}>
+</picture>

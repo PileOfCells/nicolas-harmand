@@ -1,0 +1,68 @@
+# Source unique : page Publications, pages thématiques, JSON-LD.
+# Pour ajouter un article, copier un bloc et l'insérer en tête de `articles`.
+# Métadonnées vérifiées via Crossref.
+
+articles:
+  - year: 2026
+    title: "Design and optimization of in situ self-functionalizing stress sensors"
+    authors: "O. Vasiljevic*, N. Harmand*, A. Hubert, L. Kebbal, V. Bormuth, C. Hayn, J. Fouchard, E. Wandersman, M.-A. Breau, L.-L. Pontani"
+    journal: "The European Physical Journal E"
+    ref: "49, 12"
+    doi: "10.1140/epje/s10189-025-00550-y"
+    image: stress-sensors-sq
+    image_alt:
+      en: "Ferrofluid droplets deformed inside a tissue, acting as stress sensors"
+      fr: "Gouttes de ferrofluide déformées dans un tissu, servant de senseurs de contrainte"
+    topic: microrheometry
+    note:
+      en: "*Equal contributions"
+      fr: "*Contributions égales"
+
+  - year: 2022
+    title: "Thickness of epithelia on wavy substrates: measurements and continuous models"
+    authors: "N. Harmand, J. Dervaux, C. Poulard, S. Hénon"
+    journal: "The European Physical Journal E"
+    ref: "45 (6), 53"
+    doi: "10.1140/epje/s10189-022-00206-1"
+    image: epithelia-thickness-sq
+    image_alt:
+      en: "Cross-section of an epithelium on a wavy substrate, fluorescence microscopy"
+      fr: "Coupe d'un épithélium sur substrat ondulé, en microscopie de fluorescence"
+    topic: epithelia
+    highlight:
+      en: "Journal cover"
+      fr: "Couverture du journal"
+
+  - year: 2021
+    title: "3D Shape of Epithelial Cells on Curved Substrates"
+    authors: "N. Harmand, A. Huang, S. Hénon"
+    journal: "Physical Review X"
+    ref: "11 (3), 031028"
+    doi: "10.1103/PhysRevX.11.031028"
+    image: epithelia-shape-sq
+    image_alt:
+      en: "3D reconstruction of epithelial cells on a curved substrate"
+      fr: "Reconstruction 3D de cellules épithéliales sur un substrat courbe"
+    topic: epithelia
+    highlight:
+      en: "Among the 8 papers of the year — PRX Highlights"
+      fr: "Parmi les 8 articles de l'année — PRX Highlights"
+
+patents:
+  - year: 2024
+    title: "Print head for a system for three-dimensional printing of material"
+    authors: "G. Espy, R. Danguillaume, W. Bourennane, N. Harmand"
+    number: "WO 2024/256462 A1"
+    url: "https://patents.google.com/patent/WO2024256462A1/en"
+
+  - year: 2024
+    title: "3D printing system with bypass"
+    authors: "G. Espy, R. Danguillaume, W. Bourennane, N. Harmand"
+    number: "EP 4477374 A1"
+    url: "https://patents.google.com/patent/EP4477374A1/en"
+
+  - year: 2023
+    title: "Control of 3D printing"
+    authors: "N. Harmand, F. Zami-Pierre, R. Danguillaume, G. Saingier"
+    number: "WO 2023/025857 A1"
+    url: "https://patents.google.com/patent/WO2023025857A1/en"

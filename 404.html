@@ -1,0 +1,17 @@
+---
+permalink: /404.html
+layout: base
+lang: en
+ref: notfound
+sitemap: false
+title: Page not found
+---
+{%- comment -%}
+  Seule page où afficher les deux langues est justifié : on ignore dans quelle
+  langue le visiteur attendait la page. Chaque bloc porte son propre `lang`.
+{%- endcomment -%}
+<h1 lang="en">Page not found</h1>
+<div class="prose">
+  <p lang="en">This page does not exist or has moved. <a href="{{ '/' | relative_url }}">Back to home</a>.</p>
+  <p lang="fr">Cette page n'existe pas ou a été déplacée. <a href="{{ '/fr/' | relative_url }}">Retour à l'accueil</a>.</p>
+</div>

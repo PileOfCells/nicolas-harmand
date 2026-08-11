@@ -1,0 +1,6 @@
+# Surcharge pour la prévisualisation locale uniquement.
+#   bundle exec jekyll serve --config _config.yml,_config.dev.yml
+# Sans ce fichier, baseurl sert le site sur http://127.0.0.1:4000/nicolas-harmand/
+# et tous les liens semblent cassés.
+url: "http://127.0.0.1:4000"
+baseurl: ""

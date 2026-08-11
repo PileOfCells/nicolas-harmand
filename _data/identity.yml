@@ -1,0 +1,61 @@
+# Source unique pour le pied de page, le JSON-LD et les liens de profil.
+name: Nicolas Harmand
+given_name: Nicolas
+family_name: Harmand
+
+role:
+  en: Postdoctoral researcher
+  fr: Chercheur post-doctorant
+
+job_title:
+  en: Postdoctoral researcher in biophysics and soft matter
+  fr: Chercheur post-doctorant en biophysique et matière molle
+
+lab:
+  name: Laboratoire Jean Perrin
+  unit: UMR 8237
+  url: https://www.labojeanperrin.fr/
+institutions:
+  en: Sorbonne Université & CNRS
+  fr: Sorbonne Université & CNRS
+
+address:
+  street:
+    en: Tower 32-33, office 406, 4 place Jussieu
+    fr: Tour 32-33, bureau 406, 4 place Jussieu
+  postal_code: "75005"
+  city: Paris
+  country: FR
+  country_name:
+    en: France
+    fr: France
+
+email: nicolas.harmand@sorbonne-universite.fr
+orcid: 0000-0001-7263-9792
+scholar: hyk97zcAAAAJ
+github: PileOfCells
+
+# Profils publics qui pointent vers ce site. Chaque URL déclarée ici est ajoutée
+# au `sameAs` du JSON-LD : c'est ainsi qu'un moteur comprend que ces profils et
+# ce site désignent une seule et même personne. Décommenter au fur et à mesure,
+# et seulement une fois le profil à jour — un profil périmé qui remonte dans les
+# résultats fait plus de mal que pas de profil du tout.
+profiles: {}
+  # researchgate: "https://www.researchgate.net/profile/Nicolas-Harmand"
+  # linkedin: "https://www.linkedin.com/in/……"
+  # hal: "https://cv.hal.science/……"
+  # bluesky: "https://bsky.app/profile/……"
+
+# Alimente knowsAbout dans le JSON-LD. Vocabulaire aligné sur les mots-clés
+# de la section 08 du Comité national du CNRS.
+keywords:
+  - Soft matter physics
+  - Physics of living systems
+  - Tissue mechanics
+  - Morphogenesis
+  - Mechanobiology
+  - Microrheology
+  - Extracellular matrix
+  - Active matter
+  - Experimental instrumentation for living matter
+  - Epithelial biophysics

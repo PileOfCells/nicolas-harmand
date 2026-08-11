@@ -1,0 +1,91 @@
+.nav-logo {
+  font-weight: 600;
+  font-size: 1.4rem;
+  color: var(--text-primary);
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.nav-subtitle {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.45;
+  margin-bottom: 40px;
+}
+
+.nav-subtitle-inst { font-size: 0.8rem; }
+
+.nav-list, .nav-sublist { list-style: none; }
+
+.nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav-link {
+  display: block;
+  min-height: 24px;          /* WCAG 2.2 SC 2.5.8 — cible tactile */
+  padding-block: 5px;
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: color var(--t);
+
+  &:hover, &.is-active { color: var(--accent); }
+}
+
+.nav-sublist {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding-left: 15px;
+  margin: 4px 0 8px;
+  border-left: 1px solid var(--border);
+}
+
+.nav-sublink {
+  display: block;
+  min-height: 24px;
+  padding-block: 4px;
+  text-decoration: none;
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  line-height: 1.35;
+  transition: color var(--t);
+
+  &:hover, &.is-active { color: var(--accent); }
+}
+
+.lang-switch {
+  align-self: flex-start;
+  margin-top: 40px;
+  padding: 8px 16px;
+  border: 1px solid var(--border-strong);
+  font-weight: 500;
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: var(--text-primary);
+  transition: background-color var(--t), border-color var(--t);
+
+  &:hover { background-color: var(--bg-secondary); border-color: var(--text-primary); }
+}
+
+@media (max-width: 900px) {
+  .nav-subtitle { margin-bottom: 16px; }
+
+  .nav-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4px 20px;
+  }
+
+  /* Le sous-menu passerait à la ligne au milieu du bandeau : on le masque,
+     la page Recherche donne accès aux deux axes. */
+  .nav-sublist { display: none; }
+
+  .lang-switch { margin-top: 16px; }
+}

@@ -1,0 +1,21 @@
+{%- capture person_id %}{{ '/' | absolute_url }}#nicolas-harmand{% endcapture -%}
+<script type="application/ld+json">
+[
+{%- for a in site.data.publications.articles -%}
+{
+  "@context": "https://schema.org",
+  "@type": "ScholarlyArticle",
+  "headline": {{ a.title | jsonify }},
+  "name": {{ a.title | jsonify }},
+  "author": { "@id": {{ person_id | jsonify }} },
+  "datePublished": {{ a.year | jsonify }},
+  "isPartOf": { "@type": "Periodical", "name": {{ a.journal | jsonify }} },
+  "identifier": [
+    { "@type": "PropertyValue", "propertyID": "DOI", "value": {{ a.doi | jsonify }} }
+  ],
+  "sameAs": {{ a.doi | prepend: 'https://doi.org/' | jsonify }},
+  "url": {{ a.doi | prepend: 'https://doi.org/' | jsonify }}
+}{% unless forloop.last %},{% endunless %}
+{%- endfor -%}
+]
+</script>

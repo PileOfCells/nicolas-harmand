@@ -1,0 +1,42 @@
+# Chaînes d'interface. Le contenu rédactionnel vit dans les pages, pas ici.
+en:
+  lang_name: Français
+  lang_switch_label: "Lire cette page en français"
+  skip_to_content: Skip to content
+  nav_main: Main navigation
+  nav_research: Research topics
+  back_to_research: Back to research
+  related_publications: Related publications
+  collaborations: Collaborations
+  new_tab: opens in a new tab
+  email: Email
+  cv_download: Download CV
+  pdf_meta: "PDF, %s"
+  latest: Latest
+  articles: Peer-reviewed articles
+  patents: Patents
+  equal_contrib: Equal contributions
+  not_found_title: Page not found
+  not_found_text: This page does not exist or has moved.
+  back_home: Back to home
+
+fr:
+  lang_name: English
+  lang_switch_label: "Read this page in English"
+  skip_to_content: Aller au contenu
+  nav_main: Navigation principale
+  nav_research: Axes de recherche
+  back_to_research: Retour à la recherche
+  related_publications: Publications associées
+  collaborations: Collaborations
+  new_tab: nouvel onglet
+  email: Courriel
+  cv_download: Télécharger le CV
+  pdf_meta: "PDF, %s"
+  latest: Actualités
+  articles: Articles à comité de lecture
+  patents: Brevets
+  equal_contrib: Contributions égales
+  not_found_title: Page introuvable
+  not_found_text: Cette page n'existe pas ou a été déplacée.
+  back_home: Retour à l'accueil

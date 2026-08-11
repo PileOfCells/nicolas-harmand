@@ -1,0 +1,30 @@
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+vendor/
+.bundle/
+
+# PDF : ne versionner que le CV publié
+*.pdf
+!assets/docs/cv.pdf
+
+# Notes de travail internes : charte éditoriale, fiche de référencement,
+# sources du CV. Elles vivent dans un dépôt GitHub PRIVÉ monté ici en
+# `private/`. Rien de ce dossier ne doit entrer dans le dépôt public.
+private/
+CLAUDE.md
+
+# Fichiers auxiliaires LaTeX
+*.aux
+*.log
+*.out
+
+.agents/
+.gemini/
+.DS_Store
+
+# Fichiers d'échange d'éditeurs
+.*.kate-swp
+*~
+.*.swp

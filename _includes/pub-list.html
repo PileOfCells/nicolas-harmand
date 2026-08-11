@@ -1,0 +1,28 @@
+{%- comment -%}
+  Rend une liste d'articles.
+  Paramètres : include.items (obligatoire), include.show_images (booléen).
+{%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+<ul class="pub-list">
+{%- for a in include.items %}
+  <li class="pub-item">
+    <span class="pub-year">{{ a.year }}</span>
+    <div class="pub-details">
+      <span class="pub-title">{{ a.title }}</span>
+      <span class="pub-authors">{{ a.authors | replace: 'N. Harmand', '<strong>N. Harmand</strong>' }}</span>
+      <span class="pub-journal"><em>{{ a.journal }}</em> <strong>{{ a.ref }}</strong> ({{ a.year }})</span>
+      {%- if a.note %}<span class="note">{{ a.note[page.lang] }}</span>{% endif %}
+      {%- if a.highlight %}<span class="highlight-tag">{{ a.highlight[page.lang] }}</span>{% endif %}
+      <span class="pub-links">
+        <a class="pub-link-btn" href="https://doi.org/{{ a.doi }}" rel="noopener noreferrer" target="_blank">DOI: {{ a.doi }}</a>
+      </span>
+    </div>
+    {%- if include.show_images and a.image %}
+    <div class="pub-image-container">
+      {%- assign pub_alt = a.image_alt[page.lang] -%}
+      {%- include picture.html name=a.image widths="200,360" sizes="180px" w=180 h=180 alt=pub_alt class="pub-image" -%}
+    </div>
+    {%- endif %}
+  </li>
+{%- endfor %}
+</ul>

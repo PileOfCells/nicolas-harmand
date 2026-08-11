@@ -1,0 +1,25 @@
+/* Un chercheur imprime ou exporte en PDF pour un dossier de candidature. */
+@media print {
+  :root { --gutter: 0; }
+
+  body {
+    display: block;
+    color: #000;
+    background: #fff;
+    font-size: 11pt;
+  }
+
+  .sidebar, .lang-switch, .skip-link, .back-link, .footer-links { display: none; }
+
+  .main-content { max-width: none; padding: 0; }
+  .footer { border-top: 1px solid #000; padding: 12pt 0 0; }
+
+  h1, h2, h3, h4 { break-after: avoid; }
+  .figure, .pub-item, .timeline-item, .gallery-item { break-inside: avoid; }
+
+  .figure img, .gallery-item img { max-width: 100%; }
+
+  a { color: #000; text-decoration: underline; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 9pt; word-break: break-all; }
+  a[href^="#"]::after, a[href^="mailto"]::after { content: ""; }
+}

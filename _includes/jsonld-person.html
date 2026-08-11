@@ -1,0 +1,70 @@
+{%- assign id = site.data.identity -%}
+{%- capture person_id %}{{ '/' | absolute_url }}#nicolas-harmand{% endcapture -%}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": {{ person_id | jsonify }},
+  "name": {{ id.name | jsonify }},
+  "givenName": {{ id.given_name | jsonify }},
+  "familyName": {{ id.family_name | jsonify }},
+  "url": {{ '/' | absolute_url | jsonify }},
+  "image": {{ '/assets/img/portrait-600.webp' | absolute_url | jsonify }},
+  "jobTitle": {{ id.job_title[page.lang] | jsonify }},
+  "email": {{ id.email | prepend: 'mailto:' | jsonify }},
+  "knowsLanguage": ["en", "fr"],
+  "knowsAbout": {{ id.keywords | jsonify }},
+  "affiliation": {
+    "@type": "ResearchOrganization",
+    "name": {{ id.lab.name | append: ' (' | append: id.lab.unit | append: ')' | jsonify }},
+    "url": {{ id.lab.url | jsonify }},
+    "parentOrganization": [
+      { "@type": "CollegeOrUniversity", "name": "Sorbonne Université", "url": "https://www.sorbonne-universite.fr/" },
+      { "@type": "GovernmentOrganization", "name": "Centre National de la Recherche Scientifique", "alternateName": "CNRS", "url": "https://www.cnrs.fr/" }
+    ]
+  },
+  "workLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": {{ id.address.street[page.lang] | jsonify }},
+      "postalCode": {{ id.address.postal_code | jsonify }},
+      "addressLocality": {{ id.address.city | jsonify }},
+      "addressCountry": {{ id.address.country | jsonify }}
+    }
+  },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "ESPCI Paris — PSL", "url": "https://www.espci.psl.eu/" },
+    { "@type": "CollegeOrUniversity", "name": "Université Paris Cité", "url": "https://u-paris.fr/" },
+    { "@type": "CollegeOrUniversity", "name": "Sorbonne Université", "url": "https://www.sorbonne-universite.fr/" }
+  ],
+  "identifier": [
+    {
+      "@type": "PropertyValue",
+      "propertyID": "ORCID",
+      "value": {{ id.orcid | jsonify }},
+      "url": {{ id.orcid | prepend: 'https://orcid.org/' | jsonify }}
+    }
+  ],
+  {%- comment -%}
+    sameAs : c'est ce qui dit à un moteur que ces profils et ce site sont une
+    seule personne. Liste construite par concaténation puis `split`, pour que
+    les profils facultatifs de `identity.profiles` s'ajoutent sans virgule
+    orpheline.
+  {%- endcomment -%}
+  {%- capture same_as -%}
+https://orcid.org/{{ id.orcid }}|https://scholar.google.com/citations?user={{ id.scholar }}|https://github.com/{{ id.github }}{% for p in id.profiles %}|{{ p[1] }}{% endfor %}
+  {%- endcapture -%}
+  "sameAs": {{ same_as | strip | split: "|" | jsonify }}
+}
+</script>
+{%- if page.ref == 'home' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "mainEntity": { "@id": {{ person_id | jsonify }} },
+  "dateModified": {{ site.time | date_to_xmlschema | jsonify }}
+}
+</script>
+{%- endif -%}

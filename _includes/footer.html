@@ -1,0 +1,19 @@
+{%- assign id = site.data.identity -%}
+<footer class="footer">
+  <div class="footer-container">
+    <div class="footer-contact">
+      <p class="footer-name">{{ id.name }}</p>
+      <p>{{ id.lab.name }} ({{ id.lab.unit }}) — {{ id.institutions[page.lang] }}</p>
+      <p>{{ id.address.street[page.lang] }}, {{ id.address.postal_code }} {{ id.address.city }}, {{ id.address.country_name[page.lang] }}</p>
+      <p><a href="mailto:{{ id.email }}">{{ id.email }}</a></p>
+    </div>
+
+    <div class="footer-links">
+      <a href="https://orcid.org/{{ id.orcid }}" rel="noopener noreferrer" target="_blank">ORCID</a>
+      <a href="https://scholar.google.com/citations?user={{ id.scholar }}" rel="noopener noreferrer" target="_blank">Google Scholar</a>
+      <a href="{{ '/assets/docs/cv.pdf' | relative_url }}">CV</a>
+    </div>
+
+    <p class="footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ id.name }}</p>
+  </div>
+</footer>

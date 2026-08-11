@@ -1,0 +1,64 @@
+## Site
+title: Nicolas Harmand
+tagline: Physics of living matter
+description: >-
+  Nicolas Harmand, postdoctoral researcher at Laboratoire Jean Perrin
+  (Sorbonne Université / CNRS). Soft matter physics applied to living systems:
+  tissue mechanics, morphogenesis and in situ force sensors.
+url: "https://pileofcells.github.io"
+baseurl: "/nicolas-harmand"
+lang: en
+
+## Build
+permalink: pretty
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - tools/
+  - _src/
+  - README.md
+  - private/
+  # CLAUDE.md à la racine est un lien symbolique vers private/CLAUDE.md :
+  # sans cette ligne, Jekyll le recopierait dans _site en lien brisé.
+  - CLAUDE.md
+  - .github/
+
+## jekyll-seo-tag
+author: Nicolas Harmand
+
+# Vérification de propriété dans Google Search Console.
+#
+# INUTILE ICI : la propriété est vérifiée par la méthode « fichier HTML »
+# (google6024d25b56a7fdb1.html, à la racine du dépôt). Une seule méthode suffit.
+#
+# Ne décommenter que si l'on bascule sur la méthode « balise HTML ». Deux
+# pièges alors : la clé s'écrit avec des tirets bas — jekyll-seo-tag ne lit que
+# `google_site_verification` — et la valeur est le jeton opaque d'une
+# quarantaine de caractères, jamais un nom de fichier.
+# Voir private/REFERENCEMENT.md, étape 1.
+# google_site_verification: ""
+
+## Valeurs par défaut
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: page
+      lang: en
+      # Laisse jekyll-seo-tag émettre og:image, twitter:image et
+      # twitter:card=summary_large_image ; head.html ne complète que les
+      # dimensions et le texte alternatif.
+      image: /assets/icons/og-default.jpg
+  - scope:
+      path: "fr"
+    values:
+      lang: fr

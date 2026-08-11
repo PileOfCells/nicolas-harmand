@@ -1,0 +1,113 @@
+/* Grille à deux colonnes. Remplace le `position: fixed` + `margin-left: 260px`
+   dupliqué sur .main-content et .footer, dont la désynchronisation était
+   garantie au premier changement de largeur. */
+body {
+  display: grid;
+  grid-template-columns: var(--rail) 1fr;
+  grid-template-areas:
+    "nav main"
+    "nav footer";
+  min-height: 100dvh;
+  position: relative; /* ancre le skip-link, hors flux de la grille */
+}
+
+.sidebar {
+  grid-area: nav;
+  position: sticky;
+  top: 0;
+  height: 100dvh;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  background-color: var(--bg-primary);
+  border-right: 1px solid var(--border);
+  padding: 60px 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  grid-area: main;
+  padding: 60px var(--gutter);
+  max-width: 1000px;
+  width: 100%;
+}
+
+.footer {
+  grid-area: footer;
+  padding: 40px var(--gutter);
+  border-top: 1px solid var(--border);
+}
+
+/* --- Sections --------------------------------------------------------- */
+.section {
+  padding: 60px 0;
+  border-bottom: 1px solid var(--border);
+
+  &:last-child { border-bottom: none; padding-bottom: 0; }
+}
+
+.section--tight { padding-top: 20px; }
+
+.section-title {
+  font-size: clamp(1.5rem, 1.2rem + 1.4vw, 2rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+/* --- Pied de page ------------------------------------------------------ */
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-contact {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  max-width: 500px;
+
+  p { margin-bottom: 4px; }
+  .footer-name { color: var(--text-primary); font-weight: 500; }
+  a { color: var(--text-primary); font-weight: 500; text-decoration: none;
+      &:hover { text-decoration: underline; text-underline-offset: 3px; } }
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  font-size: 0.85rem;
+
+  a { color: var(--text-secondary); text-decoration: none;
+      &:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; } }
+}
+
+.footer-copyright {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  width: 100%;
+}
+
+/* --- Bascule mobile ---------------------------------------------------- */
+@media (max-width: 900px) {
+  body {
+    grid-template-columns: 1fr;
+    grid-template-areas: "nav" "main" "footer";
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+    overflow: visible;
+    padding: 24px var(--gutter);
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .main-content { padding: 40px var(--gutter); }
+  .footer { padding: 30px var(--gutter); }
+
+  .footer-container { flex-direction: column; align-items: flex-start; gap: 20px; }
+}

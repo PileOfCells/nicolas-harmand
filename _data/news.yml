@@ -1,0 +1,18 @@
+# 3 entrées maximum affichées sur la page d'accueil, les plus récentes d'abord.
+# Une rubrique d'actualités qui stagne dessert le site : mieux vaut la vider
+# que d'y laisser une entrée de deux ans.
+- date: 2026-01-15
+  text:
+    en: "New paper in *EPJ E*: design and optimization of in situ self-functionalizing stress sensors."
+    fr: "Nouvel article dans *EPJ E* : conception et optimisation de senseurs de contrainte auto-fonctionnalisants in situ."
+  url: https://doi.org/10.1140/epje/s10189-025-00550-y
+
+- date: 2026-01-01
+  text:
+    en: "Awarded a 20 k€ interlaboratory grant from IBPS for 2026–2027."
+    fr: "Lauréat d'un financement interlaboratoire IBPS de 20 k€ pour 2026-2027."
+
+- date: 2026-06-01
+  text:
+    en: "Invited experimental workshop on force-sensing droplets at the 2nd France-BioImaging Mechanobiology Working Group meeting."
+    fr: "Atelier expérimental sur les gouttes senseurs de force au 2nd meeting du France-BioImaging Mechanobiology Working Group."

@@ -1,0 +1,30 @@
+/* Design tokens — palette monochrome héritée de la première version du site. */
+:root {
+  color-scheme: light;
+
+  --bg-primary: #ffffff;
+  --bg-secondary: #fafafa;
+  --text-primary: #1a1a1a;
+  --text-secondary: #666666;   /* 5,74:1 sur blanc — AA */
+  --accent: #000000;
+  --accent-hover: #555555;
+
+  --border: #eaeaea;           /* séparateurs décoratifs uniquement */
+  --border-strong: #949494;    /* 3,03:1 — bordures de contrôles, WCAG 1.4.11 */
+
+  --rail: 240px;               /* largeur de la colonne de navigation */
+  --gutter: 80px;
+  --measure: 68ch;             /* longueur de ligne confortable */
+
+  --t: 200ms ease;
+}
+
+@media (max-width: 1200px) {
+  :root { --rail: 210px; --gutter: 48px; }
+}
+@media (max-width: 900px) {
+  :root { --gutter: 24px; }
+}
+@media (max-width: 380px) {
+  :root { --gutter: 16px; }
+}

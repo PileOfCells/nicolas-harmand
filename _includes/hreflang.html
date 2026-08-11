@@ -1,0 +1,11 @@
+{%- comment -%}
+  Alternates de langue. Les pages jumelles sont appariées par leur champ `ref`
+  en front-matter. La boucle étant symétrique, les hreflang se référencent
+  mutuellement, ce qu'exige Google. Le canonical est émis par jekyll-seo-tag.
+{%- endcomment -%}
+{%- assign siblings = site.pages | where: "ref", page.ref | sort: "lang" -%}
+{%- for p in siblings -%}
+<link rel="alternate" hreflang="{{ p.lang }}" href="{{ p.url | absolute_url }}">
+{% if p.lang == 'en' %}<link rel="alternate" hreflang="x-default" href="{{ p.url | absolute_url }}">
+{% endif -%}
+{%- endfor -%}

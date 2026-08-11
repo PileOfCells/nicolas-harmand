@@ -1,0 +1,39 @@
+# Ordre du menu latéral. `ref` doit correspondre au front-matter des pages.
+- ref: home
+  label:
+    en: Home
+    fr: Accueil
+
+- ref: research
+  label:
+    en: Research
+    fr: Recherche
+  children:
+    - ref: microrheometry
+      label:
+        en: Force sensors in tissues
+        fr: Senseurs de force dans les tissus
+    - ref: epithelia
+      label:
+        en: Epithelial mechanics
+        fr: Mécanique des épithéliums
+
+- ref: publications
+  label:
+    en: Publications
+    fr: Publications
+
+- ref: gallery
+  label:
+    en: Gallery
+    fr: Galerie
+
+- ref: teaching
+  label:
+    en: Supervision & teaching
+    fr: Encadrement & enseignement
+
+- ref: about
+  label:
+    en: CV & background
+    fr: Parcours & CV

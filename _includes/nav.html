@@ -1,0 +1,54 @@
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign id = site.data.identity -%}
+{%- assign home = site.pages | where: "ref", "home" | where: "lang", page.lang | first -%}
+
+<header class="sidebar">
+  <a href="{{ home.url | relative_url }}" class="nav-logo">{{ id.name }}</a>
+
+  <p class="nav-subtitle">
+    {{ id.role[page.lang] }}<br>
+    {{ id.lab.name }}<br>
+    <span class="nav-subtitle-inst">{{ id.institutions[page.lang] }}</span>
+  </p>
+
+  <nav class="nav-menu" aria-label="{{ t.nav_main }}">
+    <ul class="nav-list">
+      {%- for item in site.data.nav -%}
+        {%- assign target = site.pages | where: "ref", item.ref | where: "lang", page.lang | first -%}
+        {%- assign is_current = false -%}
+        {%- if page.ref == item.ref %}{% assign is_current = true %}{% endif -%}
+        {%- assign in_section = false -%}
+        {%- if is_current or page.parent == item.ref %}{% assign in_section = true %}{% endif -%}
+        <li class="nav-item">
+          <a href="{{ target.url | relative_url }}"
+             class="nav-link{% if in_section %} is-active{% endif %}"
+             {% if is_current %}aria-current="page"{% endif %}>{{ item.label[page.lang] }}</a>
+
+          {%- if item.children and in_section %}
+          <ul class="nav-sublist" aria-label="{{ t.nav_research }}">
+            {%- for child in item.children -%}
+              {%- assign sub = site.pages | where: "ref", child.ref | where: "lang", page.lang | first -%}
+              <li>
+                <a href="{{ sub.url | relative_url }}"
+                   class="nav-sublink{% if page.ref == child.ref %} is-active{% endif %}"
+                   {% if page.ref == child.ref %}aria-current="page"{% endif %}>{{ child.label[page.lang] }}</a>
+              </li>
+            {%- endfor -%}
+          </ul>
+          {%- endif %}
+        </li>
+      {%- endfor -%}
+    </ul>
+  </nav>
+
+  {%- comment -%}
+    Un lien, pas un bouton : fonctionne sans JavaScript, est indexable, et
+    pointe vers la page équivalente plutôt que vers l'accueil.
+  {%- endcomment -%}
+  {%- assign other = site.pages | where: "ref", page.ref | where_exp: "p", "p.lang != page.lang" | first -%}
+  {%- if other %}
+  <a class="lang-switch" href="{{ other.url | relative_url }}"
+     lang="{{ other.lang }}" hreflang="{{ other.lang }}" rel="alternate"
+     title="{{ t.lang_switch_label }}">{{ t.lang_name }}</a>
+  {%- endif %}
+</header>

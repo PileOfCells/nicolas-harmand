@@ -1,0 +1,25 @@
+# Collaborations, rattachées à l'axe de recherche concerné.
+# Limitées aux collaborateurs proches et actuels (private/CHARTE.md § 5).
+microrheometry:
+  - group:
+      en: Experimental biophysics
+      fr: Biophysique expérimentale
+    people: "L.-L. Pontani, E. Wandersman & A. Prevost (LJP)"
+  - group:
+      en: Cell & developmental biology
+      fr: Biologie cellulaire & du développement
+    people: "M.-A. Breau & C. Curantz (Dev2A)"
+  - group:
+      en: Theory & modelling
+      fr: Théorie & modélisation
+    people: "J. O'Byrne (LJP)"
+
+epithelia:
+  - group:
+      en: Theory & modelling
+      fr: Théorie & modélisation
+    people: "J. Dervaux (MSC)"
+  - group:
+      en: Experimental biophysics
+      fr: Biophysique expérimentale
+    people: "S. Hénon (MSC), C. Poulard (LPS)"
