@@ -8,7 +8,8 @@ Bilingue : anglais à la racine, français sous `/fr/`. Aucun JavaScript.
 
 **Avant une modification de fond, lire `private/CHARTE.md`** : à quoi sert ce
 site, sur quel ton il est écrit, ce qui a le droit d'y entrer et ce qui en a été
-délibérément exclu. Ce README-ci ne couvre que les gestes courants.
+délibérément exclu. Ce README-ci ne couvre que les gestes courants ; `private/MODIFIER-LE-SITE.md`
+les détaille pas à pas, sans supposer de connaissance de git.
 
 Les notes de travail — charte éditoriale, fiche de référencement, sources du CV —
 vivent dans un dépôt privé monté en `private/`, ignoré ici et exclu du site
@@ -44,7 +45,7 @@ Les brevets vivent dans le même fichier, sous `patents:`.
 
 ## Ajouter une actualité
 
-`_data/news.yml`. Les **trois plus récentes** s'affichent sur la page d'accueil.
+`_data/news.yml`. Les **quatre plus récentes** s'affichent sur la page d'accueil.
 
 ```yaml
 - date: 2027-03-01
@@ -67,11 +68,11 @@ rappelle son homologue anglaise.
 |---|---|---|
 | Accueil | `index.md` | `fr/index.md` |
 | Recherche | `research.md` | `fr/recherche.md` |
-| — Senseurs de force | `research/microrheometry.md` | `fr/recherche/microrheometrie.md` |
+| — Senseurs de contraintes | `research/microrheometry.md` | `fr/recherche/microrheometrie.md` |
 | — Épithéliums | `research/epithelia.md` | `fr/recherche/epitheliums.md` |
 | Publications | `publications.md` | `fr/publications.md` |
 | Galerie | `gallery.md` | `fr/galerie.md` |
-| Enseignement & diffusion | `teaching.md` | `fr/enseignement.md` |
+| Encadrement & enseignement | `teaching.md` | `fr/enseignement.md` |
 | Parcours & CV | `about.md` | `fr/parcours.md` |
 
 Coordonnées, ORCID, Scholar et affiliation : `_data/identity.yml` (un seul
