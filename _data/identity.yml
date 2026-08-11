@@ -46,7 +46,10 @@ profiles:
   # elle ne contredit rien, et HAL est une source institutionnelle qui aide un
   # moteur à rattacher ces publications à cette personne.
   hal: "https://cv.hal.science/nicolas-harmand"
-  # linkedin: "https://www.linkedin.com/in/……"   ← URL à confirmer par Nicolas
+  # URL confirmée par Nicolas le 11 août 2026, poste et employeur à jour.
+  # Le profil ne renvoie pas vers le site : le `sameAs` aide un moteur à
+  # rattacher le profil à la personne, mais ne remplace pas un lien entrant.
+  linkedin: "https://www.linkedin.com/in/nicolas-harmand-21438b112/"
   # researchgate: …  ← profil périmé et inaccessible, ne pas déclarer tant qu'il
   #                    annonce « PhD Student, Paris Diderot »
   # bluesky: "https://bsky.app/profile/……"
