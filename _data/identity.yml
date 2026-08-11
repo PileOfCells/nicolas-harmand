@@ -50,8 +50,10 @@ profiles:
   # Le profil ne renvoie pas vers le site : le `sameAs` aide un moteur à
   # rattacher le profil à la personne, mais ne remplace pas un lien entrant.
   linkedin: "https://www.linkedin.com/in/nicolas-harmand-21438b112/"
-  # researchgate: …  ← profil périmé et inaccessible, ne pas déclarer tant qu'il
-  #                    annonce « PhD Student, Paris Diderot »
+  # Titre et poste vérifiés le 11 août 2026 sur la page telle que la voit un
+  # visiteur non connecté : « Postdoctoral Researcher at Sorbonne University ».
+  # Le profil porte lui-même un avertissement renvoyant vers ce site.
+  researchgate: "https://www.researchgate.net/profile/Nicolas-Harmand"
   # bluesky: "https://bsky.app/profile/……"
 
 # Alimente knowsAbout dans le JSON-LD. Vocabulaire aligné sur les mots-clés
