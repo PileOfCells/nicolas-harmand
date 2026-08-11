@@ -14,7 +14,7 @@ image: /assets/img/gallery-cell-island-1200.webp
 <h1>Galerie</h1>
 
 <div class="prose">
-  <p class="lead">Faire une mesure et faire une image sont le même geste accompli deux fois. Celles-ci sont sorties d'expériences, et ont remporté des concours d'images ou fait la couverture d'un journal.</p>
+  <p class="lead">Faire une mesure et faire une image sont le même geste accompli deux fois. Celles-ci sont sorties d'expériences, et ont été distinguées dans des concours d'images ou ont fait la couverture d'un journal.</p>
 </div>
 
 <ul class="gallery-list">
@@ -39,7 +39,7 @@ image: /assets/img/gallery-cell-island-1200.webp
   <li class="gallery-item">
     {%- include picture.html name="gallery-oscillatoria" widths="600,1200" sizes="(max-width: 900px) 100vw, 840px" w=840 h=505 alt="Faisceaux denses de cyanobactéries filamenteuses Oscillatoria princeps alignées en motifs tourbillonnants évoquant une empreinte digitale" -%}
     <div class="gallery-meta">
-      <span class="gallery-award">Nikon Small World in Motion</span>
+      <span class="gallery-award">Nikon Small World in Motion — mention honorable</span>
       <span class="gallery-year">2015</span>
     </div>
     <p class="gallery-caption"><em>Oscillatoria princeps</em>, une cyanobactérie filamenteuse qui glisse sur les surfaces. Laissés à eux-mêmes, les filaments s'alignent avec leurs voisins et s'organisent en tourbillons et en défauts — une réalisation expérimentale de cristal liquide nématique actif, en matière vivante.</p>

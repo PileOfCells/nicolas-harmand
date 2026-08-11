@@ -13,7 +13,7 @@ image: /assets/img/gallery-cell-island-1200.webp
 <h1>Gallery</h1>
 
 <div class="prose">
-  <p class="lead">Making a measurement and making an image are the same gesture performed twice. These came out of experiments, and went on to win image competitions or to make a journal cover.</p>
+  <p class="lead">Making a measurement and making an image are the same gesture performed twice. These came out of experiments, and went on to be distinguished in image competitions or to make a journal cover.</p>
 </div>
 
 <ul class="gallery-list">
@@ -38,7 +38,7 @@ image: /assets/img/gallery-cell-island-1200.webp
   <li class="gallery-item">
     {%- include picture.html name="gallery-oscillatoria" widths="600,1200" sizes="(max-width: 900px) 100vw, 840px" w=840 h=505 alt="Dense bundles of filamentous Oscillatoria princeps cyanobacteria aligned into swirling, fingerprint-like patterns" -%}
     <div class="gallery-meta">
-      <span class="gallery-award">Nikon Small World in Motion</span>
+      <span class="gallery-award">Nikon Small World in Motion — honourable mention</span>
       <span class="gallery-year">2015</span>
     </div>
     <p class="gallery-caption"><em>Oscillatoria princeps</em>, a filamentous cyanobacterium that glides across surfaces. Left to their own devices, the filaments align with their neighbours and organise into swirls and defects — an experimental realisation of an active nematic liquid crystal, made of living matter.</p>

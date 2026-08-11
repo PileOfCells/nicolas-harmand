@@ -83,7 +83,7 @@ description: >-
       <ul class="bullet-list">
         <li><strong>2019 — <a href="{{ '/fr/galerie/' | relative_url }}">La preuve par l'image</a>, CNRS.</strong> Exposée à la Cité des sciences et de l'industrie, Paris.</li>
         <li><strong>2019 — Beautiful Science</strong>, Société Française de Physique.</li>
-        <li><strong>2015 — <a href="{{ '/fr/galerie/' | relative_url }}">Nikon Small World in Motion</a></strong>, pour des images de cyanobactéries <em>Oscillatoria princeps</em>.</li>
+        <li><strong>2015 — <a href="{{ '/fr/galerie/' | relative_url }}">Nikon Small World in Motion</a>, mention honorable.</strong> Pour des images de cyanobactéries <em>Oscillatoria princeps</em>, avec le Prakash Lab à Stanford.</li>
         <li><strong>2011 — Olympiades internationales de physique</strong>, sélectionné parmi les dix finalistes au niveau national.</li>
       </ul>
     </div>
