@@ -6,7 +6,7 @@ title: Physique du vivant
 description: >-
   Nicolas Harmand, chercheur post-doctorant au Laboratoire Jean Perrin
   (Sorbonne Université / CNRS). Physique de la matière molle appliquée au
-  vivant : mécanique des tissus, morphogenèse et senseurs de force in situ.
+  vivant : mécanique des tissus, morphogenèse et senseurs de contrainte in situ.
 ---
 <!-- SYNC: index.md : toute modification ici doit être reportée sur la page anglaise. -->
 

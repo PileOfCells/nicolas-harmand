@@ -97,13 +97,13 @@ description: >-
       <ul class="bullet-list">
         <li><strong>Relecture.</strong> Relecteur (<em lang="en">reviewer</em>) pour <em>iScience</em> (Cell Press).</li>
         <li><strong>Organisation.</strong> Co-organisateur du symposium <em lang="en">Dynamics of Extra-Cellular Matrix: Insights Into Force Transmission and Microenvironment Regulation</em> (2024), une journée de présentations avec des intervenants internationaux.</li>
-        <li><strong>Atelier expérimental.</strong> Conception et animation d'un atelier sur les gouttes senseurs de force dans les gels pour le 2<sup>e</sup> meeting du <span lang="en">France-BioImaging Mechanobiology Working Group</span> (2026).</li>
+        <li><strong>Atelier expérimental.</strong> Conception et animation d'un atelier sur les gouttes senseurs de contrainte dans les gels pour le <em lang="en">2nd meeting of the France-BioImaging Mechanobiology Working Group</em> (2026).</li>
       </ul>
     </div>
     <div>
       <h2>Vulgarisation</h2>
       <ul class="bullet-list">
-        <li><strong>Wikipédia.</strong> Création et rédaction initiale de l'article francophone sur les <a href="https://fr.wikipedia.org/wiki/Cellule_MDCK" rel="noopener noreferrer" target="_blank">cellules MDCK</a>.</li>
+        <li><strong>Wikipédia.</strong> Création et rédaction initiale de l'article francophone sur les <a href="https://fr.wikipedia.org/wiki/Cellules_MDCK" rel="noopener noreferrer" target="_blank">cellules MDCK</a>.</li>
         <li><strong>Club astronomie de l'ESPCI (2013-2014).</strong> Président ; organisation d'un cycle de conférences publiques avec des invités internationaux, dont Michel Mayor, Athena Coustenis et Laura Parker.</li>
       </ul>
     </div>

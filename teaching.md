@@ -73,7 +73,7 @@ description: >-
 <section class="section">
   <h2 class="section-title">Outreach</h2>
   <ul class="bullet-list">
-    <li><strong>Wikipedia.</strong> Wrote the initial French article on <a href="https://fr.wikipedia.org/wiki/Cellule_MDCK" rel="noopener noreferrer" target="_blank" lang="fr">MDCK cells</a>.</li>
+    <li><strong>Wikipedia.</strong> Wrote the initial French article on <a href="https://fr.wikipedia.org/wiki/Cellules_MDCK" rel="noopener noreferrer" target="_blank" lang="fr">MDCK cells</a>.</li>
     <li><strong>Climate Fresk, 2021–2024.</strong> Facilitator, 28 h, Saint-Gobain Recherche Paris.</li>
     <li><strong>Open days, Saint-Gobain Recherche Paris, 2022.</strong> Ran a public workshop on surface tension, in the format of the <span lang="fr">Fête de la Science</span>.</li>
     <li><strong>Astronomy club, ESPCI Paris, 2013–2014.</strong> President; organised a public lecture series with international guests, including Michel Mayor, Athena Coustenis and Laura Parker.</li>

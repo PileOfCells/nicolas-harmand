@@ -101,7 +101,7 @@ description: >-
     <div>
       <h2>Outreach</h2>
       <ul class="bullet-list">
-        <li><strong>Wikipedia.</strong> Wrote the initial French Wikipedia article on <a href="https://fr.wikipedia.org/wiki/Cellule_MDCK" rel="noopener noreferrer" target="_blank" lang="fr">MDCK cells</a>.</li>
+        <li><strong>Wikipedia.</strong> Wrote the initial French Wikipedia article on <a href="https://fr.wikipedia.org/wiki/Cellules_MDCK" rel="noopener noreferrer" target="_blank" lang="fr">MDCK cells</a>.</li>
         <li><strong>Astronomy club, ESPCI Paris (2013–2014).</strong> President; organised a public lecture series with international guests, including Michel Mayor, Athena Coustenis and Laura Parker.</li>
       </ul>
     </div>

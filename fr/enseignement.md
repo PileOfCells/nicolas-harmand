@@ -74,7 +74,7 @@ description: >-
 <section class="section">
   <h2 class="section-title">Diffusion scientifique</h2>
   <ul class="bullet-list">
-    <li><strong>Wikipédia.</strong> Création et rédaction initiale de l'article <a href="https://fr.wikipedia.org/wiki/Cellule_MDCK" rel="noopener noreferrer" target="_blank">Cellules MDCK</a>.</li>
+    <li><strong>Wikipédia.</strong> Création et rédaction initiale de l'article <a href="https://fr.wikipedia.org/wiki/Cellules_MDCK" rel="noopener noreferrer" target="_blank">Cellules MDCK</a>.</li>
     <li><strong>Fresque du climat, 2021-2024.</strong> Animateur, 28 h, Saint-Gobain Recherche Paris.</li>
     <li><strong>Journées portes ouvertes, Saint-Gobain Recherche Paris, 2022.</strong> Animation d'un atelier grand public sur la tension de surface, au format Fête de la Science.</li>
     <li><strong>Club astronomie de l'ESPCI Paris, 2013-2014.</strong> Président ; organisation d'un cycle de conférences avec des invités internationaux, dont Michel Mayor, Athena Coustenis et Laura Parker.</li>
