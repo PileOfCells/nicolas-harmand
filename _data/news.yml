@@ -1,4 +1,4 @@
-# 3 entrées maximum affichées sur la page d'accueil, les plus récentes d'abord.
+# 4 entrées maximum affichées sur la page d'accueil, les plus récentes d'abord.
 # Une rubrique d'actualités qui stagne dessert le site : mieux vaut la vider
 # que d'y laisser une entrée de deux ans.
 - date: 2026-01-15
@@ -12,7 +12,12 @@
     en: "Awarded a 20 k€ interlaboratory grant from IBPS for 2026–2027."
     fr: "Lauréat d'un financement interlaboratoire IBPS de 20 k€ pour 2026-2027."
 
-- date: 2026-06-01
+- date: 2026-03-01
   text:
     en: "Invited experimental workshop on force-sensing droplets at the 2nd France-BioImaging Mechanobiology Working Group meeting."
     fr: "Atelier expérimental sur les gouttes senseurs de force au 2nd meeting du France-BioImaging Mechanobiology Working Group."
+
+- date: 2026-06-01
+  text:
+    en: "Lydia Kebbal has won an EDPIF doctoral fellowship to work on the mechanics of heterogeneous epithelial monolayers, co-supervised by Léa-Laetitia Pontani and myself. Congratulations to her!"
+    fr: "Lydia Kebbal a obtenu son financement de thèse EDPIF pour travailler sur la mécanique de monocouches épithéliales hétérogènes, en co-encadrement avec Léa-Laetitia Pontani et moi-même. Bravo à elle !"

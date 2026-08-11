@@ -8,14 +8,14 @@ description: >-
   (Sorbonne Université / CNRS). Physique de la matière molle appliquée au
   vivant : mécanique des tissus, morphogenèse et senseurs de force in situ.
 ---
-<!-- SYNC: index.md — toute modification ici doit être reportée sur la page anglaise. -->
+<!-- SYNC: index.md : toute modification ici doit être reportée sur la page anglaise. -->
 
 <section class="hero-section">
   <div class="hero-container">
     <div class="hero-text">
       <h1>Nicolas Harmand</h1>
       <p class="subtitle">Physique du vivant</p>
-      <p class="institution">Laboratoire Jean Perrin — Sorbonne Université / CNRS, Paris</p>
+      <p class="institution">Laboratoire Jean Perrin, Sorbonne Université / CNRS, Paris</p>
 
       <div class="hero-logos">
         <img src="{{ '/assets/img/logo-ljp-100.png' | relative_url }}" width="168" height="40" alt="Laboratoire Jean Perrin" class="inst-logo" decoding="async">
@@ -24,7 +24,7 @@ description: >-
       </div>
 
       <div class="bio">
-        <p>J'utilise la physique de la matière molle pour comprendre le vivant. Ma démarche est expérimentale : je conçois des mesures qui mettent à l'épreuve les modèles physiques des tissus — que je construis avec des théoriciens, et parfois seul — pour déterminer où ils tiennent, où ils rompent, et quel mécanisme leur manque.</p>
+        <p>J'utilise la physique de la matière molle pour comprendre le vivant. Ma démarche est expérimentale : je conçois des mesures qui mettent à l'épreuve les modèles physiques des tissus (que je construis avec des théoriciens, et parfois seul) pour déterminer où ils tiennent, où ils rompent, et quel mécanisme leur manque.</p>
         <p>Ingénieur ESPCI Paris et docteur en biophysique, j'ai passé trois ans et demi en R&amp;D industrielle chez Saint-Gobain, où j'ai développé des procédés physiques ayant donné lieu à trois brevets internationaux. Je suis revenu à la recherche fondamentale en 2024 au Laboratoire Jean Perrin, où je développe des senseurs micrométriques pour mesurer les contraintes mécaniques à l'intérieur d'embryons en développement.</p>
       </div>
 
@@ -53,7 +53,7 @@ description: >-
   <h2 class="section-title">Recherche</h2>
   <div class="prose">
     <p class="question">Comment l'hétérogénéité cellulaire et la mécanique tissulaire s'influencent-elles mutuellement ?</p>
-    <p>Les tissus biologiques sont des matériaux actifs et hétérogènes. Que ce soit au cours de l'embryogenèse ou de la progression tumorale, la manière dont les propriétés mécaniques — déformations, écoulements — et les hétérogénéités cellulaires — adhésion, contractilité — rétroagissent les unes sur les autres reste largement incomprise. J'aborde cette question par deux angles complémentaires : mesurer les forces à l'intérieur des tissus vivants à l'aide de senseurs que nous concevons nous-mêmes, et rendre compte des formes qu'adoptent les cellules et les tissus par des modèles inspirés de la physique de la matière molle.</p>
+    <p>Les tissus biologiques sont des matériaux actifs et hétérogènes. Que ce soit au cours de l'embryogenèse ou de la progression tumorale, la manière dont les propriétés mécaniques (déformations, écoulements) et les hétérogénéités cellulaires (adhésion, contractilité) rétroagissent les unes sur les autres reste largement incomprise. J'aborde cette question par deux angles complémentaires : mesurer les forces à l'intérieur des tissus vivants à l'aide de senseurs que nous concevons nous-mêmes, et rendre compte des formes qu'adoptent les cellules et les tissus par des modèles inspirés de la physique de la matière molle.</p>
     <p><a href="{{ '/fr/recherche/' | relative_url }}">En savoir plus sur mes recherches</a></p>
   </div>
 </section>
@@ -62,7 +62,7 @@ description: >-
   <h2 class="section-title">Actualités</h2>
   <ul class="news-list">
     {%- assign news = site.data.news | sort: "date" | reverse -%}
-    {%- for item in news limit: 3 %}
+    {%- for item in news limit: 4 %}
     <li class="news-item">
       <time datetime="{{ item.date | date: '%Y-%m-%d' }}">{{ item.date | date: "%m/%Y" }}</time>
       <span>{{ item.text[page.lang] | markdownify | remove: '<p>' | remove: '</p>' }}{% if item.url %} <a href="{{ item.url }}" rel="noopener noreferrer" target="_blank">↗</a>{% endif %}</span>
@@ -75,18 +75,18 @@ description: >-
   <h2 class="section-title">Formation</h2>
   <div class="timeline">
     <div class="timeline-item">
-      <span class="time-period">2016 — 2019</span>
+      <span class="time-period">2016-2019</span>
       <div class="time-details">
         <h3>Doctorat en biophysique</h3>
-        <p class="location">Université Paris Cité — Laboratoire Matière et Systèmes Complexes, Paris</p>
+        <p class="location">Université Paris Cité, Laboratoire Matière et Systèmes Complexes, Paris</p>
         <p class="description">Pertinence et limites des tensions de surface et de ligne pour rendre compte des formes des cellules épithéliales. Sous la direction de Sylvie Hénon.</p>
       </div>
     </div>
     <div class="timeline-item">
-      <span class="time-period">2012 — 2016</span>
+      <span class="time-period">2012-2016</span>
       <div class="time-details">
         <h3>Diplôme d'ingénieur ESPCI Paris &amp; Master ICFP</h3>
-        <p class="location">ESPCI Paris — PSL / Sorbonne Université, Paris</p>
+        <p class="location">ESPCI Paris - PSL / Sorbonne Université, Paris</p>
         <p class="description">Majeure physique ; Master 2 ICFP, parcours <em lang="en">Soft Matter and Biological Physics</em>.</p>
       </div>
     </div>

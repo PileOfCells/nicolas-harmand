@@ -5,7 +5,7 @@ permalink: /fr/enseignement/
 title: Encadrement & enseignement
 description: >-
   Encadrement, formation interdisciplinaire, enseignement et diffusion
-  scientifique de Nicolas Harmand — une doctorante, des stages de master, et le
+  scientifique de Nicolas Harmand : une doctorante, des stages de master, et le
   cours national AQV sur la rhéologie des cellules et des tissus.
 ---
 <!-- SYNC: teaching.md -->
@@ -19,7 +19,7 @@ description: >-
 <section class="section">
   <h2 class="section-title">Encadrement</h2>
   <div class="prose">
-    <p>Depuis 2017 : une thèse, un stage de M2, six stages de M1, un technicien et un ingénieur de R&amp;D — en laboratoire et dans l'industrie. Lydia Kebbal, dont j'encadre la thèse à partir d'octobre 2026, a d'abord été mon étudiante en M1 puis en M2 ; elle est co-autrice de l'article de 2026 sur les senseurs de contrainte.</p>
+    <p>Depuis 2017 : une thèse, un stage de M2, six stages de M1, un technicien et un ingénieur de R&amp;D, en laboratoire et dans l'industrie. Lydia Kebbal, dont j'encadre la thèse à partir d'octobre 2026, a d'abord été mon étudiante en M1 puis en M2 ; elle est co-autrice de l'article de 2026 sur les senseurs de contrainte.</p>
   </div>
   <div class="table-scroll">
     <table class="supervision-table">
@@ -27,7 +27,7 @@ description: >-
         <tr><th>Années</th><th>Nom</th><th>Établissement</th><th>Niveau</th></tr>
       </thead>
       <tbody>
-        <tr><td>2026 — …</td><td class="student-name">Lydia Kebbal</td><td>Sorbonne Université</td><td>Doctorat</td></tr>
+        <tr><td>Depuis 2026</td><td class="student-name">Lydia Kebbal</td><td>Sorbonne Université</td><td>Doctorat</td></tr>
         <tr><td>2026</td><td class="student-name">Aude Lesage</td><td>Sorbonne Université</td><td>M1</td></tr>
         <tr><td>2025-2026</td><td class="student-name">Lydia Kebbal</td><td>Sorbonne Université</td><td>M2</td></tr>
         <tr><td>2025</td><td class="student-name">Antoine Hamelin</td><td>Sorbonne Université</td><td>M1</td></tr>
@@ -43,18 +43,15 @@ description: >-
 </section>
 
 <section class="section">
-  <h2 class="section-title">Formation interdisciplinaire</h2>
-  <div class="prose">
-    <p>Cours et ateliers destinés à des chercheurs en activité, de part et d'autre de la frontière entre physique et biologie. Ni enseignement universitaire, ni vulgarisation : le public fait déjà de la recherche, et ce qui se transmet est une façon de mesurer.</p>
-  </div>
+  <h2 class="section-title">Cours et ateliers pour chercheurs</h2>
   <ul class="conf-list">
     <li>
       <span class="conf-year">2026</span>
-      <span><strong>Rhéologie des cellules et des tissus</strong> — <em lang="en">AQV interdisciplinary online courses</em>, GDR 2108 Approches Quantitatives du Vivant, la communauté française des approches quantitatives du vivant. Vingt minutes d'introduction, puis quarante minutes de questions ouvertes, pour des biologistes qui travaillent sur des phénomènes mécaniques et préfèrent affronter le jargon rhéologique plutôt que l'éviter. 6 novembre 2026.</span>
+      <span><strong>Rhéologie des cellules et des tissus.</strong> <em lang="en">AQV interdisciplinary online courses</em>, GDR 2108 Approches Quantitatives du Vivant, la communauté française des approches quantitatives du vivant. Vingt minutes d'introduction, puis quarante minutes de questions ouvertes, pour des biologistes qui travaillent sur des phénomènes mécaniques et préfèrent affronter le jargon rhéologique plutôt que l'éviter. 6 novembre 2026.</span>
     </li>
     <li>
       <span class="conf-year">2026</span>
-      <span><strong>Gouttes senseurs de contrainte dans les gels</strong> — atelier expérimental conçu et animé pour le <em lang="en">2nd meeting of the France-BioImaging Mechanobiology Working Group</em>.</span>
+      <span><strong>Gouttes senseurs de contrainte dans les gels.</strong> Atelier expérimental conçu et animé pour le <em lang="en">2nd meeting of the France-BioImaging Mechanobiology Working Group</em>.</span>
     </li>
   </ul>
 </section>
@@ -64,11 +61,11 @@ description: >-
   <ul class="conf-list">
     <li>
       <span class="conf-year">2025-26</span>
-      <span><strong>Mécanique et mécanobiologie</strong>, 12 h de cours magistral — Master IBP <em lang="en">Interface Biology-Physics</em>, Sorbonne Université. Cours construit intégralement : 6 h au tableau sur la capillarité et les fluides viscoélastiques, 6 h sur la mesure mécanique en biologie, plus un TD et deux sujets d'examen.</span>
+      <span><strong>Mécanique et mécanobiologie</strong>, 12 h de cours magistral, Master IBP <em lang="en">Interface Biology-Physics</em>, Sorbonne Université. Cours construit personnellement : 6 h au tableau sur la capillarité et les fluides viscoélastiques, 6 h sur la mesure mécanique en biologie, plus un TD et deux sujets d'examen.</span>
     </li>
     <li>
       <span class="conf-year">2016-19</span>
-      <span><strong>Programmation Matlab</strong>, 91 h de travaux pratiques — ESPCI Paris, pendant mon doctorat.</span>
+      <span><strong>Programmation Matlab</strong>, 91 h de travaux pratiques, ESPCI Paris, pendant mon doctorat.</span>
     </li>
   </ul>
 </section>
@@ -77,8 +74,8 @@ description: >-
 <section class="section">
   <h2 class="section-title">Diffusion scientifique</h2>
   <ul class="bullet-list">
-    <li><strong>Wikipédia.</strong> Création et rédaction initiale de l'article <a href="https://fr.wikipedia.org/wiki/Cellule_MDCK" rel="noopener noreferrer" target="_blank">Cellules MDCK</a>, la lignée épithéliale de référence du domaine.</li>
-    <li><strong>Fresque du climat, 2021-2024.</strong> Animateur, 28 h — Saint-Gobain Recherche Paris.</li>
+    <li><strong>Wikipédia.</strong> Création et rédaction initiale de l'article <a href="https://fr.wikipedia.org/wiki/Cellule_MDCK" rel="noopener noreferrer" target="_blank">Cellules MDCK</a>.</li>
+    <li><strong>Fresque du climat, 2021-2024.</strong> Animateur, 28 h, Saint-Gobain Recherche Paris.</li>
     <li><strong>Journées portes ouvertes, Saint-Gobain Recherche Paris, 2022.</strong> Animation d'un atelier grand public sur la tension de surface, au format Fête de la Science.</li>
     <li><strong>Club astronomie de l'ESPCI Paris, 2013-2014.</strong> Président ; organisation d'un cycle de conférences avec des invités internationaux, dont Michel Mayor, Athena Coustenis et Laura Parker.</li>
   </ul>

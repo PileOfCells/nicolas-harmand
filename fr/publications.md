@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/publications/
 title: Publications
 description: >-
-  Articles à comité de lecture et brevets internationaux de Nicolas Harmand.
+  Publications et brevets internationaux de Nicolas Harmand.
 ---
 <!-- SYNC: publications.md -->
 

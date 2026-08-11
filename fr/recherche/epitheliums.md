@@ -16,16 +16,16 @@ description: >-
 <h1>Mécanique des épithéliums</h1>
 
 <div class="prose">
-  <p>Les épithéliums sont des couches de cellules jointives qui tapissent la plupart des organes et cavités des organismes vivants. Ils subissent des contraintes géométriques et mécaniques sévères, en particulier le long de surfaces fortement courbées comme les villosités intestinales ou les vaisseaux sanguins.</p>
+  <p>Les épithéliums sont des couches de cellules jointives qui tapissent la plupart des organes et cavités des organismes vivants. Ils subissent des contraintes géométriques et mécaniques, en particulier le long de surfaces fortement courbées comme les villosités intestinales ou les vaisseaux sanguins.</p>
 
   <p>Nous combinons microscopie confocale 3D haute résolution et modélisation théorique pour caractériser la morphologie tridimensionnelle des cellules épithéliales sur des substrats courbes et ondulés micro-fabriqués. Nous suivons l'évolution de l'épaisseur cellulaire et des surfaces apicale et basale, et la manière dont ces paramètres sont contraints par des tensions de surface effectives et par la régulation active du cytosquelette d'actomyosine.</p>
 
-  <p>Formaliser ces mesures sous forme de modèles mécaniques continus montre jusqu'où des concepts physiques simples — tensions de surface et de ligne — décrivent la forme cellulaire 3D, et où ils s'arrêtent. Cette frontière est la partie intéressante : c'est là qu'il faut invoquer un mécanisme supplémentaire, activement régulé.</p>
+  <p>Formaliser ces mesures sous forme de modèles mécaniques continus montre jusqu'où des concepts physiques simples (tensions de surface et de ligne) décrivent la forme cellulaire 3D, et où ils s'arrêtent. Cette frontière est la partie intéressante : c'est là qu'il faut invoquer un mécanisme supplémentaire, activement régulé.</p>
 
   <div class="figure-grid">
     <figure class="figure">
       {%- include picture.html name="epithelia-shape" widths="400,800" sizes="(max-width: 900px) 100vw, 410px" w=410 h=410 alt="Reconstruction confocale de cellules épithéliales sur un substrat courbe : noyaux en cyan, contours cellulaires en rouge" -%}
-      <figcaption>Forme 3D des cellules épithéliales sur substrats courbes.</figcaption>
+      <figcaption>Cellules épithéliales sur un substrat ondulé, vues de dessus au microscope confocal.</figcaption>
     </figure>
     <figure class="figure">
       {%- include picture.html name="epithelia-thickness" widths="800,1600" sizes="(max-width: 900px) 100vw, 410px" w=410 h=53 alt="Coupe d'un épithélium sur substrat ondulé montrant les variations d'épaisseur" -%}

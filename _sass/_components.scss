@@ -311,10 +311,10 @@
   flex-direction: column;
   gap: 14px;
 
-  li { font-size: 0.95rem; display: grid; grid-template-columns: 60px 1fr; gap: 16px; }
+  li { font-size: 0.95rem; display: grid; grid-template-columns: 74px 1fr; gap: 16px; }
 }
 
-.conf-year { color: var(--text-secondary); font-weight: 500; }
+.conf-year { color: var(--text-secondary); font-weight: 500; white-space: nowrap; }
 .note-invited { color: var(--text-primary); font-style: italic; font-size: 0.85rem; }
 
 /* ── Tableau d'encadrement ───────────────────────────────────────────── */

@@ -14,16 +14,16 @@ description: >-
 <h1>Epithelial mechanics</h1>
 
 <div class="prose">
-  <p>Epithelia are layers of tightly bound cells lining most organs and cavities of living organisms. They are subject to severe geometric and mechanical constraints, particularly along strongly curved surfaces such as intestinal villi or blood vessels.</p>
+  <p>Epithelia are layers of tightly bound cells lining most organs and cavities of living organisms. They are subject to geometric and mechanical constraints, particularly along strongly curved surfaces such as intestinal villi or blood vessels.</p>
 
   <p>We combine high-resolution 3D confocal microscopy with theoretical modelling to characterise the three-dimensional morphology of epithelial cells on micro-engineered curved and wavy substrates. We follow how cell thickness and apical and basal areas vary, and how these are constrained by effective surface tensions and by active regulation of the actomyosin cytoskeleton.</p>
 
-  <p>Formalising these measurements as continuum mechanical models shows how far simple physical concepts — surface and line tensions — go in describing 3D cell shape, and where they stop. That boundary is the interesting part: it is where an additional, actively regulated mechanism has to be invoked.</p>
+  <p>Formalising these measurements as continuum mechanical models shows how far simple physical concepts (surface and line tensions) go in describing 3D cell shape, and where they stop. That boundary is the interesting part: it is where an additional, actively regulated mechanism has to be invoked.</p>
 
   <div class="figure-grid">
     <figure class="figure">
       {%- include picture.html name="epithelia-shape" widths="400,800" sizes="(max-width: 900px) 100vw, 410px" w=410 h=410 alt="Confocal reconstruction of epithelial cells on a curved substrate: nuclei in cyan, cell contours in red" -%}
-      <figcaption>3D shape of epithelial cells on curved substrates.</figcaption>
+      <figcaption>Epithelial cells on a wavy substrate, seen from above by confocal microscopy.</figcaption>
     </figure>
     <figure class="figure">
       {%- include picture.html name="epithelia-thickness" widths="800,1600" sizes="(max-width: 900px) 100vw, 410px" w=410 h=53 alt="Cross-section of an epithelium on a wavy substrate showing thickness variations" -%}
