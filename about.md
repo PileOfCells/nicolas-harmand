@@ -27,7 +27,7 @@ description: >-
       <span class="time-period">Since 2024</span>
       <div class="time-details">
         <h3>Postdoctoral researcher</h3>
-        <p class="location">Laboratoire Jean Perrin, Sorbonne Université, Paris</p>
+        <p class="location">Laboratoire Jean Perrin, Sorbonne Université — Paris</p>
         <p class="description">Microrheometry of the extracellular matrix during embryogenesis using ferrofluid droplets, with Léa-Laetitia Pontani.</p>
       </div>
     </div>
@@ -35,7 +35,7 @@ description: >-
       <span class="time-period">2020-2024</span>
       <div class="time-details">
         <h3>R&amp;D research engineer</h3>
-        <p class="location">Saint-Gobain Recherche Paris, Aubervilliers</p>
+        <p class="location">Saint-Gobain Recherche Paris — Aubervilliers</p>
         <p class="description">Physics of industrial processes. Three international patents filed.</p>
       </div>
     </div>
@@ -43,7 +43,7 @@ description: >-
       <span class="time-period">2016-2020</span>
       <div class="time-details">
         <h3>PhD, then bridging postdoctoral contract</h3>
-        <p class="location">Laboratoire Matière et Systèmes Complexes, Université Paris Cité, Paris</p>
+        <p class="location">Laboratoire Matière et Systèmes Complexes, Université Paris Cité — Paris</p>
         <p class="description">PhD defended in 2019, supervised by Sylvie Hénon; bridging contract until June 2020.</p>
       </div>
     </div>
@@ -51,7 +51,7 @@ description: >-
       <span class="time-period">2015</span>
       <div class="time-details">
         <h3>Research placement, Prakash Lab</h3>
-        <p class="location">Stanford University, California, USA</p>
+        <p class="location">Stanford University — California, USA</p>
         <p class="description">Topological defects in bacterial colonies: observation and theoretical study of defect mechanics.</p>
       </div>
     </div>
@@ -59,7 +59,7 @@ description: >-
       <span class="time-period">2012-2016</span>
       <div class="time-details">
         <h3>Engineering degree, ESPCI Paris &amp; MSc ICFP</h3>
-        <p class="location">ESPCI Paris - PSL / Sorbonne Université, Paris</p>
+        <p class="location">ESPCI Paris - PSL / Sorbonne Université — Paris</p>
         <p class="description">Major in physics. Research placements at the University of Edinburgh (2013) and CEA Valduc (2014).</p>
       </div>
     </div>

@@ -46,11 +46,11 @@ description: >-
   <ul class="conf-list">
     <li>
       <span class="conf-year">2026</span>
-      <span><strong>Rheology of cells and tissues.</strong> <em>AQV interdisciplinary online courses</em>, GDR 2108 <span lang="fr">Approches Quantitatives du Vivant</span>, the French community for quantitative biology. A 20-minute introduction followed by 40 minutes of open questions, aimed at biologists who work on mechanical phenomena and would rather face rheological jargon than avoid it. 6 November 2026.</span>
+      <span><strong>Rheology of cells and tissues</strong> — <em>AQV interdisciplinary online courses</em>, GDR 2108 <span lang="fr">Approches Quantitatives du Vivant</span>, the French community for quantitative biology. A 20-minute introduction followed by 40 minutes of open questions, aimed at biologists who work on mechanical phenomena and would rather face rheological jargon than avoid it. 6 November 2026.</span>
     </li>
     <li>
       <span class="conf-year">2026</span>
-      <span><strong>Force-sensing droplets in gels.</strong> Hands-on experimental workshop designed and run for the 2nd meeting of the France-BioImaging Mechanobiology Working Group.</span>
+      <span><strong>Force-sensing droplets in gels</strong> — hands-on experimental workshop designed and run for the 2nd meeting of the France-BioImaging Mechanobiology Working Group.</span>
     </li>
   </ul>
 </section>

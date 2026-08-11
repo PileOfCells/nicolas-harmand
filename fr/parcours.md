@@ -29,7 +29,7 @@ description: >-
       <span class="time-period">Depuis 2024</span>
       <div class="time-details">
         <h3>Chercheur post-doctorant</h3>
-        <p class="location">Laboratoire Jean Perrin, Sorbonne Université, Paris</p>
+        <p class="location">Laboratoire Jean Perrin, Sorbonne Université — Paris</p>
         <p class="description">Microrhéométrie de la matrice extracellulaire au cours de l'embryogenèse par gouttes de ferrofluide, avec Léa-Laetitia Pontani.</p>
       </div>
     </div>
@@ -37,7 +37,7 @@ description: >-
       <span class="time-period">2020-2024</span>
       <div class="time-details">
         <h3>Ingénieur de recherche R&amp;D</h3>
-        <p class="location">Saint-Gobain Recherche Paris, Aubervilliers</p>
+        <p class="location">Saint-Gobain Recherche Paris — Aubervilliers</p>
         <p class="description">Physique des procédés industriels. Trois brevets internationaux déposés.</p>
       </div>
     </div>
@@ -45,7 +45,7 @@ description: >-
       <span class="time-period">2016-2020</span>
       <div class="time-details">
         <h3>Doctorat, puis contrat de transition post-doctorale</h3>
-        <p class="location">Laboratoire Matière et Systèmes Complexes, Université Paris Cité, Paris</p>
+        <p class="location">Laboratoire Matière et Systèmes Complexes, Université Paris Cité — Paris</p>
         <p class="description">Thèse soutenue en 2019, sous la direction de Sylvie Hénon ; contrat de transition jusqu'en juin 2020.</p>
       </div>
     </div>
@@ -53,7 +53,7 @@ description: >-
       <span class="time-period">2015</span>
       <div class="time-details">
         <h3>Stage de recherche, Prakash Lab</h3>
-        <p class="location">Stanford University, Californie, États-Unis</p>
+        <p class="location">Stanford University — Californie, États-Unis</p>
         <p class="description">Défauts topologiques dans les colonies bactériennes : observation et étude théorique de la mécanique des défauts.</p>
       </div>
     </div>
@@ -61,7 +61,7 @@ description: >-
       <span class="time-period">2012-2016</span>
       <div class="time-details">
         <h3>Diplôme d'ingénieur ESPCI Paris &amp; Master 2 ICFP</h3>
-        <p class="location">ESPCI Paris - PSL / Sorbonne Université, Paris</p>
+        <p class="location">ESPCI Paris - PSL / Sorbonne Université — Paris</p>
         <p class="description">Majeure physique. Stages de recherche à l'University of Edinburgh (2013) et au CEA Valduc (2014).</p>
       </div>
     </div>

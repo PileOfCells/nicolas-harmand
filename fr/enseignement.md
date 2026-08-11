@@ -47,11 +47,11 @@ description: >-
   <ul class="conf-list">
     <li>
       <span class="conf-year">2026</span>
-      <span><strong>Rhéologie des cellules et des tissus.</strong> <em lang="en">AQV interdisciplinary online courses</em>, GDR 2108 Approches Quantitatives du Vivant, la communauté française des approches quantitatives du vivant. Vingt minutes d'introduction, puis quarante minutes de questions ouvertes, pour des biologistes qui travaillent sur des phénomènes mécaniques et préfèrent affronter le jargon rhéologique plutôt que l'éviter. 6 novembre 2026.</span>
+      <span><strong>Rhéologie des cellules et des tissus</strong> — <em lang="en">AQV interdisciplinary online courses</em>, GDR 2108 Approches Quantitatives du Vivant, la communauté française des approches quantitatives du vivant. Vingt minutes d'introduction, puis quarante minutes de questions ouvertes, pour des biologistes qui travaillent sur des phénomènes mécaniques et préfèrent affronter le jargon rhéologique plutôt que l'éviter. 6 novembre 2026.</span>
     </li>
     <li>
       <span class="conf-year">2026</span>
-      <span><strong>Gouttes senseurs de contrainte dans les gels.</strong> Atelier expérimental conçu et animé pour le <em lang="en">2nd meeting of the France-BioImaging Mechanobiology Working Group</em>.</span>
+      <span><strong>Gouttes senseurs de contrainte dans les gels</strong> — atelier expérimental conçu et animé pour le <em lang="en">2nd meeting of the France-BioImaging Mechanobiology Working Group</em>.</span>
     </li>
   </ul>
 </section>

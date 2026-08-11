@@ -15,7 +15,7 @@ description: >-
     <div class="hero-text">
       <h1>Nicolas Harmand</h1>
       <p class="subtitle">Physique du vivant</p>
-      <p class="institution">Laboratoire Jean Perrin, Sorbonne Université / CNRS, Paris</p>
+      <p class="institution">Laboratoire Jean Perrin — Sorbonne Université / CNRS, Paris</p>
 
       <div class="hero-logos">
         <img src="{{ '/assets/img/logo-ljp-100.png' | relative_url }}" width="168" height="40" alt="Laboratoire Jean Perrin" class="inst-logo" decoding="async">
@@ -78,7 +78,7 @@ description: >-
       <span class="time-period">2016-2019</span>
       <div class="time-details">
         <h3>Doctorat en biophysique</h3>
-        <p class="location">Université Paris Cité, Laboratoire Matière et Systèmes Complexes, Paris</p>
+        <p class="location">Université Paris Cité — Laboratoire Matière et Systèmes Complexes, Paris</p>
         <p class="description">Pertinence et limites des tensions de surface et de ligne pour rendre compte des formes des cellules épithéliales. Sous la direction de Sylvie Hénon.</p>
       </div>
     </div>
