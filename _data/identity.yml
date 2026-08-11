@@ -40,10 +40,15 @@ github: PileOfCells
 # ce site désignent une seule et même personne. Décommenter au fur et à mesure,
 # et seulement une fois le profil à jour — un profil périmé qui remonte dans les
 # résultats fait plus de mal que pas de profil du tout.
-profiles: {}
-  # researchgate: "https://www.researchgate.net/profile/Nicolas-Harmand"
-  # linkedin: "https://www.linkedin.com/in/……"
-  # hal: "https://cv.hal.science/……"
+profiles:
+  # IdHAL vérifié le 11 août 2026 : la page existe et porte bien ses dépôts.
+  # Elle reste maigre (ni affiliation ni intitulé de poste) — à étoffer, mais
+  # elle ne contredit rien, et HAL est une source institutionnelle qui aide un
+  # moteur à rattacher ces publications à cette personne.
+  hal: "https://cv.hal.science/nicolas-harmand"
+  # linkedin: "https://www.linkedin.com/in/……"   ← URL à confirmer par Nicolas
+  # researchgate: …  ← profil périmé et inaccessible, ne pas déclarer tant qu'il
+  #                    annonce « PhD Student, Paris Diderot »
   # bluesky: "https://bsky.app/profile/……"
 
 # Alimente knowsAbout dans le JSON-LD. Vocabulaire aligné sur les mots-clés
