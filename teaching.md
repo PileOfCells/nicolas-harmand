@@ -60,7 +60,7 @@ description: >-
   <ul class="conf-list">
     <li>
       <span class="conf-year">2026</span>
-      <span><strong>Rheology of cells and tissues</strong> — <em>AQV interdisciplinary online courses</em></span>
+      <span><strong>Rheology of cells and tissues</strong> — <em><a href="https://gdr-aqv.ijm.fr/" rel="noopener noreferrer" target="_blank">AQV</a> interdisciplinary online courses</em></span>
     </li>
     <li>
       <span class="conf-year">2026</span>

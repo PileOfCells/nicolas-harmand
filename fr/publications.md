@@ -21,7 +21,7 @@ description: >-
 
 <section class="section publication-group">
   <h2 class="section-title">{{ site.data.i18n[page.lang].patents }}</h2>
-  <p class="note">Déposés au cours de trois ans et demi de R&amp;D industrielle chez Saint-Gobain Recherche Paris.</p>
+  <p class="note">Déposés au cours de mon activité en R&amp;D industrielle chez Saint-Gobain Recherche Paris.</p>
   <ul class="pub-list">
     {%- for p in site.data.publications.patents %}
     <li class="pub-item">
