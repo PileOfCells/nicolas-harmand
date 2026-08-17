@@ -42,7 +42,7 @@ description: >-
   </div>
 
   <ul class="facts">
-    <li><strong>Phys. Rev. X</strong>Parmi les 8 articles de l'année, 2021</li>
+    <li><strong>Phys. Rev. X</strong>Parmi les huit articles de l'année 2021</li>
     <li><strong>Couverture de journal</strong>The European Physical Journal E, 2022</li>
     <li><strong>3 brevets internationaux</strong>Déposés chez Saint-Gobain, 2023-2024</li>
     <li><strong>3 prix d'images</strong>Nikon, CNRS, Société Française de Physique</li>

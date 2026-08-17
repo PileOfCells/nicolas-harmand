@@ -33,7 +33,7 @@ description: >-
 <section class="section">
   <h2 class="section-title">Encadrement</h2>
   <div class="prose">
-    <p>Depuis 2017 : une thèse, un stage de M2, six stages de M1, un technicien et un ingénieur de R&amp;D, en laboratoire et dans l'industrie. Lydia Kebbal, dont j'encadre la thèse à partir d'octobre 2026, a d'abord été mon étudiante en M1 puis en M2 ; elle est co-autrice de l'article de 2026 sur les senseurs de contrainte.</p>
+    <p>Depuis 2017 : une doctorante, un stage de M2, six stages de M1, un technicien et un ingénieur de R&amp;D, en laboratoire et dans l'industrie. Lydia Kebbal, dont j'encadrerai la thèse à partir d'octobre 2026, a d'abord été mon étudiante en M1 puis en M2 ; elle est co-autrice de l'article de 2026 sur les senseurs de contrainte.</p>
   </div>
   <div class="table-scroll">
     <table class="supervision-table">

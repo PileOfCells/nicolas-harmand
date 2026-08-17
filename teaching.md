@@ -32,7 +32,7 @@ description: >-
 <section class="section">
   <h2 class="section-title">Supervision</h2>
   <div class="prose">
-    <p>Since 2017: one doctorate, one Master's second-year project, six Master's first-year placements, one technician and one R&amp;D engineer, in academic laboratories and in industry. Lydia Kebbal, whose PhD I supervise from October 2026, was first my student in the first and then the second year of her Master's; she is a co-author of the 2026 paper on stress sensors.</p>
+    <p>Since 2017: one PhD student, one second-year Master's project, six first-year Master's placements, one technician and one R&amp;D engineer, in academic laboratories and in industry. Lydia Kebbal, whose PhD I will supervise from October 2026, was first my student during her first year and then her second year of the Master's; she is a co-author of the 2026 paper on stress sensors.</p>
   </div>
   <div class="table-scroll">
     <table class="supervision-table">

@@ -14,7 +14,7 @@ image: /assets/img/gallery-cell-island-1200.webp
 <h1>Galerie</h1>
 
 <div class="prose">
-  <p class="lead">Faire une mesure et faire une image sont le même geste accompli deux fois. Celles-ci sont sorties d'expériences, et ont été distinguées dans des concours d'images ou ont fait la couverture d'un journal.</p>
+  <p class="lead">Faire une mesure et faire une image sont le même geste accompli deux fois. Ces images sont issues d'expériences et ont ensuite été distinguées dans des concours d'images ou choisies pour faire la couverture d'un journal.</p>
 </div>
 
 <ul class="gallery-list">

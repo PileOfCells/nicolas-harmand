@@ -13,7 +13,7 @@ image: /assets/img/gallery-cell-island-1200.webp
 <h1>Gallery</h1>
 
 <div class="prose">
-  <p class="lead">Making a measurement and making an image are the same gesture performed twice. These came out of experiments, and went on to be distinguished in image competitions or to make a journal cover.</p>
+  <p class="lead">Making a measurement and making an image are the same gesture performed twice. These images came out of experiments and went on to be recognised in image competitions or appear on a journal cover.</p>
 </div>
 
 <ul class="gallery-list">
