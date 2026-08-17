@@ -18,23 +18,7 @@ description: >-
 </div>
 
 <section class="section">
-  <div class="grid-research">
-    <a class="research-card" href="{{ '/fr/recherche/microrheometrie/' | relative_url }}">
-      {%- include picture.html name="stress-sensors" widths="400,800" sizes="(max-width: 900px) 100vw, 420px" w=420 h=180 alt="Gouttes de ferrofluide utilisées comme senseurs de contrainte in situ" class="research-thumb" -%}
-      <div class="research-card-content">
-        <h2>Senseurs de force dans les tissus vivants</h2>
-        <p>Mesurer la rhéologie de la matrice extracellulaire au cours du développement, à l'aide de gouttes de ferrofluide actives injectées dans l'embryon.</p>
-      </div>
-    </a>
-
-    <a class="research-card" href="{{ '/fr/recherche/epitheliums/' | relative_url }}">
-      {%- include picture.html name="epithelia-shape" widths="400,800" sizes="(max-width: 900px) 100vw, 420px" w=420 h=180 alt="Image confocale d'un épithélium sur un substrat courbe" class="research-thumb" -%}
-      <div class="research-card-content">
-        <h2>Mécanique des épithéliums</h2>
-        <p>Comment la courbure d'un substrat dicte la forme tridimensionnelle des monocouches cellulaires, et quelles tensions de surface suffisent à en rendre compte.</p>
-      </div>
-    </a>
-  </div>
+  {%- include research-cards.html -%}
 </section>
 
 <section class="section">

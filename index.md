@@ -52,9 +52,8 @@ description: >-
   <h2 class="section-title">Research</h2>
   <div class="prose">
     <p class="question">How do cellular heterogeneity and tissue mechanics shape one another?</p>
-    <p>Biological tissues are active, heterogeneous materials. Whether during embryonic development or tumour progression, how mechanical properties (deformations, flows) and cellular heterogeneities (adhesion, contractility) feed back on each other remains largely unresolved. I approach this question from two complementary angles: measuring forces inside living tissues with sensors we design ourselves, and explaining the shapes cells and tissues adopt using models inspired by soft matter physics.</p>
-    <p><a href="{{ '/research/' | relative_url }}">Read more about my research</a></p>
   </div>
+  {%- include research-cards.html -%}
 </section>
 
 <section class="section">
