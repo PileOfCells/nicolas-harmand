@@ -20,7 +20,7 @@ description: >-
 
 <section class="section publication-group">
   <h2 class="section-title">{{ site.data.i18n[page.lang].patents }}</h2>
-  <p class="note">Filed during three and a half years of industrial R&amp;D at Saint-Gobain Recherche Paris.</p>
+  <p class="note">Filed during my industrial R&amp;D work at Saint-Gobain Recherche Paris.</p>
   <ul class="pub-list">
     {%- for p in site.data.publications.patents %}
     <li class="pub-item">
