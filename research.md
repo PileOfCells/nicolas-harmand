@@ -16,23 +16,7 @@ description: >-
 </div>
 
 <section class="section">
-  <div class="grid-research">
-    <a class="research-card" href="{{ '/research/microrheometry/' | relative_url }}">
-      {%- include picture.html name="stress-sensors" widths="400,800" sizes="(max-width: 900px) 100vw, 420px" w=420 h=180 alt="Ferrofluid droplets used as in situ stress sensors" class="research-thumb" -%}
-      <div class="research-card-content">
-        <h2>Force sensors in living tissues</h2>
-        <p>Measuring the rheology of the extracellular matrix during development, using active ferrofluid droplets injected into the embryo.</p>
-      </div>
-    </a>
-
-    <a class="research-card" href="{{ '/research/epithelia/' | relative_url }}">
-      {%- include picture.html name="epithelia-shape" widths="400,800" sizes="(max-width: 900px) 100vw, 420px" w=420 h=180 alt="Confocal image of an epithelium on a curved substrate" class="research-thumb" -%}
-      <div class="research-card-content">
-        <h2>Epithelial mechanics</h2>
-        <p>How the curvature of a substrate dictates the three-dimensional shape of cell monolayers, and what surface tensions suffice to explain it.</p>
-      </div>
-    </a>
-  </div>
+  {%- include research-cards.html -%}
 </section>
 
 <section class="section">

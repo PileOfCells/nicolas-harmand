@@ -53,9 +53,8 @@ description: >-
   <h2 class="section-title">Recherche</h2>
   <div class="prose">
     <p class="question">Comment l'hétérogénéité cellulaire et la mécanique tissulaire s'influencent-elles mutuellement ?</p>
-    <p>Les tissus biologiques sont des matériaux actifs et hétérogènes. Que ce soit au cours de l'embryogenèse ou de la progression tumorale, la manière dont les propriétés mécaniques (déformations, écoulements) et les hétérogénéités cellulaires (adhésion, contractilité) rétroagissent les unes sur les autres reste largement incomprise. J'aborde cette question par deux angles complémentaires : mesurer les forces à l'intérieur des tissus vivants à l'aide de senseurs que nous concevons nous-mêmes, et rendre compte des formes qu'adoptent les cellules et les tissus par des modèles inspirés de la physique de la matière molle.</p>
-    <p><a href="{{ '/fr/recherche/' | relative_url }}">En savoir plus sur mes recherches</a></p>
   </div>
+  {%- include research-cards.html -%}
 </section>
 
 <section class="section">

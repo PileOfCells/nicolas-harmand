@@ -16,6 +16,20 @@ description: >-
 </div>
 
 <section class="section">
+  <h2 class="section-title">Teaching</h2>
+  <ul class="conf-list">
+    <li>
+      <span class="conf-year">2025–26</span>
+      <span><strong>Mechanics and mechanobiology</strong>, 12 h of lectures, Master IBP <em>Interface Biology-Physics</em>, Sorbonne Université. Course built personally: 6 h at the blackboard on capillarity and viscoelastic fluids, 6 h on mechanical measurement in biology, plus a problem class and two exam papers. The students come from biology, so some physical concepts have to be made intuitive without being flattened, while the course still goes far enough into the underlying complexity to remain useful for understanding living systems.</span>
+    </li>
+    <li>
+      <span class="conf-year">2016–19</span>
+      <span><strong>Matlab programming</strong>, 91 h of lab classes, ESPCI Paris, during my PhD.</span>
+    </li>
+  </ul>
+</section>
+
+<section class="section">
   <h2 class="section-title">Supervision</h2>
   <div class="prose">
     <p>Since 2017: one doctorate, one Master's second-year project, six Master's first-year placements, one technician and one R&amp;D engineer, in academic laboratories and in industry. Lydia Kebbal, whose PhD I supervise from October 2026, was first my student in the first and then the second year of her Master's; she is a co-author of the 2026 paper on stress sensors.</p>
@@ -26,16 +40,16 @@ description: >-
         <tr><th>Years</th><th>Name</th><th>Institution</th><th>Level</th></tr>
       </thead>
       <tbody>
-        <tr><td>Since 2026</td><td class="student-name">Lydia Kebbal</td><td>Sorbonne Université</td><td>PhD</td></tr>
-        <tr><td>2026</td><td class="student-name">Aude Lesage</td><td>Sorbonne Université</td><td>MSc 1</td></tr>
-        <tr><td>2025–2026</td><td class="student-name">Lydia Kebbal</td><td>Sorbonne Université</td><td>MSc 2</td></tr>
-        <tr><td>2025</td><td class="student-name">Antoine Hamelin</td><td>Sorbonne Université</td><td>MSc 1</td></tr>
-        <tr><td>2025</td><td class="student-name">Lydia Kebbal</td><td>Sorbonne Université</td><td>MSc 1</td></tr>
-        <tr><td>2024</td><td class="student-name">Gaëtan Dufay</td><td>Sorbonne Université</td><td>MSc 1</td></tr>
-        <tr><td>2022–2023</td><td class="student-name">Guillaume Espy</td><td>Saint-Gobain Recherche Paris</td><td>Engineer</td></tr>
-        <tr><td>2021–2023</td><td class="student-name">Raphaël Danguillaume</td><td>Saint-Gobain Recherche Paris</td><td>Technician</td></tr>
-        <tr><td>2019</td><td class="student-name">Damien Roncin</td><td>Université Paris Cité</td><td>MSc 1</td></tr>
-        <tr><td>2017</td><td class="student-name">Vanessa Nadig</td><td>Université Paris Cité</td><td>MSc 1</td></tr>
+        <tr><td data-label="Years">Since 2026</td><td data-label="Name" class="student-name">Lydia Kebbal</td><td data-label="Institution">Sorbonne Université</td><td data-label="Level">PhD</td></tr>
+        <tr><td data-label="Years">2026</td><td data-label="Name" class="student-name">Aude Lesage</td><td data-label="Institution">Sorbonne Université</td><td data-label="Level">MSc 1</td></tr>
+        <tr><td data-label="Years">2025–2026</td><td data-label="Name" class="student-name">Lydia Kebbal</td><td data-label="Institution">Sorbonne Université</td><td data-label="Level">MSc 2</td></tr>
+        <tr><td data-label="Years">2025</td><td data-label="Name" class="student-name">Antoine Hamelin</td><td data-label="Institution">Sorbonne Université</td><td data-label="Level">MSc 1</td></tr>
+        <tr><td data-label="Years">2025</td><td data-label="Name" class="student-name">Lydia Kebbal</td><td data-label="Institution">Sorbonne Université</td><td data-label="Level">MSc 1</td></tr>
+        <tr><td data-label="Years">2024</td><td data-label="Name" class="student-name">Gaëtan Dufay</td><td data-label="Institution">Sorbonne Université</td><td data-label="Level">MSc 1</td></tr>
+        <tr><td data-label="Years">2022–2023</td><td data-label="Name" class="student-name">Guillaume Espy</td><td data-label="Institution">Saint-Gobain Recherche Paris</td><td data-label="Level">Engineer</td></tr>
+        <tr><td data-label="Years">2021–2023</td><td data-label="Name" class="student-name">Raphaël Danguillaume</td><td data-label="Institution">Saint-Gobain Recherche Paris</td><td data-label="Level">Technician</td></tr>
+        <tr><td data-label="Years">2019</td><td data-label="Name" class="student-name">Damien Roncin</td><td data-label="Institution">Université Paris Cité</td><td data-label="Level">MSc 1</td></tr>
+        <tr><td data-label="Years">2017</td><td data-label="Name" class="student-name">Vanessa Nadig</td><td data-label="Institution">Université Paris Cité</td><td data-label="Level">MSc 1</td></tr>
       </tbody>
     </table>
   </div>
@@ -46,25 +60,11 @@ description: >-
   <ul class="conf-list">
     <li>
       <span class="conf-year">2026</span>
-      <span><strong>Rheology of cells and tissues</strong> — <em>AQV interdisciplinary online courses</em>, GDR 2108 <span lang="fr">Approches Quantitatives du Vivant</span>, the French community for quantitative biology. A 20-minute introduction followed by 40 minutes of open questions, aimed at biologists who work on mechanical phenomena and would rather face rheological jargon than avoid it. 6 November 2026.</span>
+      <span><strong>Rheology of cells and tissues</strong> — <em>AQV interdisciplinary online courses</em></span>
     </li>
     <li>
       <span class="conf-year">2026</span>
       <span><strong>Force-sensing droplets in gels</strong> — hands-on experimental workshop designed and run for the 2nd meeting of the France-BioImaging Mechanobiology Working Group.</span>
-    </li>
-  </ul>
-</section>
-
-<section class="section">
-  <h2 class="section-title">Teaching</h2>
-  <ul class="conf-list">
-    <li>
-      <span class="conf-year">2025–26</span>
-      <span><strong>Mechanics and mechanobiology</strong>, 12 h of lectures, Master IBP <em>Interface Biology-Physics</em>, Sorbonne Université. Course built personally: 6 h at the blackboard on capillarity and viscoelastic fluids, 6 h on mechanical measurement in biology, plus a problem class and two exam papers.</span>
-    </li>
-    <li>
-      <span class="conf-year">2016–19</span>
-      <span><strong>Matlab programming</strong>, 91 h of lab classes, ESPCI Paris, during my PhD.</span>
     </li>
   </ul>
 </section>
