@@ -116,7 +116,7 @@ description: >-
     <div class="backgammon-text">
       <div class="prose">
         <p>En dehors du laboratoire, je pratique le backgammon de compétition à haut niveau. Membre actif des circuits national et international, j'ai été sélectionné en Équipe de France et j'ai représenté la France aux Championnats du monde par équipes à Londres, en août 2026. Je détiens actuellement le titre de Master M2 décerné par le BMAB (<em lang="en">Backgammon Masters Awarding Body</em>).</p>
-        <p>Ce n'est pas sans rapport avec la démarche scientifique. Le backgammon est un jeu de décision sous incertitude, où le bon coup et le coup gagnant ne sont fréquemment pas le même (une discipline qui a fait davantage pour mon rapport aux barres d'erreur expérimentales que n'importe quel cours de statistiques).</p>
+        <p>Ce n'est pas sans rapport avec la démarche scientifique. Le backgammon est un jeu de décision sous incertitude, où le bon coup et le coup gagnant ne sont souvent pas les mêmes (une discipline qui a fait davantage pour mon rapport aux barres d'erreur expérimentales que n'importe quel cours de statistiques).</p>
       </div>
       <div class="links-wrapper links-wrapper--spaced">
         <a href="https://bgmastersab.com/matchlog?id=2775" rel="noopener noreferrer" target="_blank" class="btn btn-secondary">Profil BMAB</a>

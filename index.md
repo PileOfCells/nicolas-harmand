@@ -41,7 +41,7 @@ description: >-
   </div>
 
   <ul class="facts">
-    <li><strong>Phys. Rev. X</strong>Among the 8 papers of the year, 2021</li>
+    <li><strong>Phys. Rev. X</strong>Among the eight papers of the year (2021)</li>
     <li><strong>Journal cover</strong>The European Physical Journal E, 2022</li>
     <li><strong>3 international patents</strong>Filed at Saint-Gobain, 2023–2024</li>
     <li><strong>3 image awards</strong>Nikon, CNRS, French Physical Society</li>

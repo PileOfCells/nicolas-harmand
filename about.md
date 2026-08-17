@@ -11,7 +11,7 @@ description: >-
 <h1>CV &amp; background</h1>
 
 <div class="prose">
-  <p class="lead">My work sits at the interface between soft matter physics and biological systems. I trained as a broad-spectrum engineer at ESPCI Paris, alongside a Master's degree in the ICFP programme, Soft Matter and Biological Physics track. That is where the conviction took hold that physical concepts can genuinely explain how living tissues behave and organise themselves.</p>
+  <p class="lead">My work sits at the interface between soft matter physics and biological systems. I trained as an engineer with a broad scientific background at ESPCI Paris, alongside a Master's degree in the ICFP programme, specialising in Soft Matter and Biological Physics. That is where the conviction took hold that physical concepts can genuinely explain how living tissues behave and organise themselves.</p>
 
   <p>I then completed a PhD in biophysics at the Laboratoire Matière et Systèmes Complexes, Université Paris Cité, supervised by Sylvie Hénon, on the relevance and the limits of surface and line tensions in accounting for the shapes of epithelial cells. Earlier, during my Master's, a research placement in Manu Prakash's lab at Stanford introduced me to topological defects in active bacterial colonies (my first encounter with living matter treated as a liquid crystal).</p>
 
@@ -72,7 +72,7 @@ description: >-
       <h2>Funding</h2>
       <ul class="bullet-list">
         <li><strong>2026: €20,000.</strong> Interlaboratory project grant, IBPS, for 2026–2027.</li>
-        <li><strong>2019.</strong> Six-month bridging postdoctoral contract, Labex <em>Who Am I?</em>, on competitive application.</li>
+        <li><strong>2019.</strong> Six-month bridging postdoctoral contract, Labex <em>Who Am I?</em>, following a competitive application process.</li>
         <li><strong>2016.</strong> Three-year doctoral funding, awarded by competitive examination of the EDPIF doctoral school.</li>
       </ul>
     </div>
@@ -114,7 +114,7 @@ description: >-
     <div class="backgammon-text">
       <div class="prose">
         <p>Outside the lab I play competitive backgammon at a high level. I am an active member of the national and international circuits, was selected for the French national team, and represented France at the World Team Championship in London in August 2026. I currently hold the Master M2 title awarded by the BMAB (<em>Backgammon Masters Awarding Body</em>).</p>
-        <p>It is not unrelated to the scientific endeavour. Backgammon is a game of decision-making under uncertainty, where the right move and the winning move are frequently not the same one (a discipline that has done more for my relationship with experimental error bars than any statistics course).</p>
+        <p>It is not unrelated to the scientific endeavour. Backgammon is a game of decision-making under uncertainty, where the right move and the winning move are often different (a discipline that has done more for my relationship with experimental error bars than any statistics course).</p>
       </div>
       <div class="links-wrapper links-wrapper--spaced">
         <a href="https://bgmastersab.com/matchlog?id=2775" rel="noopener noreferrer" target="_blank" class="btn btn-secondary">BMAB profile</a>
