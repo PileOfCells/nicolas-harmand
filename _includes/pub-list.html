@@ -12,9 +12,15 @@
       <span class="pub-authors">{{ a.authors | replace: 'N. Harmand', '<strong>N. Harmand</strong>' }}</span>
       <span class="pub-journal"><em>{{ a.journal }}</em> <strong>{{ a.ref }}</strong> ({{ a.year }})</span>
       {%- if a.note %}<span class="note">{{ a.note[page.lang] }}</span>{% endif %}
-      {%- if a.highlight %}<span class="highlight-tag">{{ a.highlight[page.lang] }}</span>{% endif %}
+      {%- if a.highlight %}
+        {%- if a.highlight_url %}<a class="highlight-tag" href="{{ a.highlight_url }}" rel="noopener noreferrer" target="_blank">{{ a.highlight[page.lang] }}</a>
+        {%- else %}<span class="highlight-tag">{{ a.highlight[page.lang] }}</span>{% endif %}
+      {%- endif %}
       <span class="pub-links">
         <a class="pub-link-btn" href="https://doi.org/{{ a.doi }}" rel="noopener noreferrer" target="_blank">DOI: {{ a.doi }}</a>
+        {%- if a.arxiv %}
+        <a class="pub-link-btn" href="https://arxiv.org/abs/{{ a.arxiv }}" rel="noopener noreferrer" target="_blank">{{ t.free_version }}</a>
+        {%- endif %}
       </span>
     </div>
     {%- if include.show_images and a.image %}

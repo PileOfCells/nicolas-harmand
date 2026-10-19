@@ -32,7 +32,7 @@ description: >-
 <section class="section">
   <h2 class="section-title">Supervision</h2>
   <div class="prose">
-    <p>Since 2017: one PhD student, one second-year Master's project, six first-year Master's placements, one technician and one R&amp;D engineer, in academic laboratories and in industry. Lydia Kebbal, whose PhD I will supervise from October 2026, was first my student during her first year and then her second year of the Master's; she is a co-author of the 2026 paper on stress sensors.</p>
+    <p>Since 2017: one PhD student, one second-year Master's project, six first-year Master's placements, one technician and one R&amp;D engineer, in academic laboratories and in industry. Lydia Kebbal, whose PhD I have supervised day to day since October 2026, with Léa-Laetitia Pontani, was first my student during her first year and then her second year of the Master's; she is a co-author of the 2026 paper on stress sensors.</p>
   </div>
   <div class="table-scroll">
     <table class="supervision-table">
@@ -64,7 +64,7 @@ description: >-
     </li>
     <li>
       <span class="conf-year">2026</span>
-      <span><strong>Force-sensing droplets in gels</strong> — hands-on experimental workshop designed and run for the 2nd meeting of the France-BioImaging Mechanobiology Working Group.</span>
+      <span><strong>Stress-sensing droplets in gels</strong> — hands-on experimental workshop designed and run for the 2nd meeting of the France-BioImaging Mechanobiology Working Group.</span>
     </li>
   </ul>
 </section>

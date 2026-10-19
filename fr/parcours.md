@@ -17,7 +17,7 @@ description: >-
 
   <p>J'ai ensuite effectué un doctorat en biophysique au Laboratoire Matière et Systèmes Complexes, Université Paris Cité, sous la direction de Sylvie Hénon, sur la pertinence et les limites des tensions de surface et de ligne pour rendre compte des formes des cellules épithéliales. Auparavant, pendant mon master, un stage de recherche dans le laboratoire de Manu Prakash à Stanford m'avait initié aux défauts topologiques dans les colonies bactériennes actives (ma première rencontre avec la matière vivante traitée comme un cristal liquide).</p>
 
-  <p>Après la thèse, j'ai choisi de confronter ma physique à la recherche industrielle appliquée en rejoignant Saint-Gobain Recherche Paris comme ingénieur de recherche. Pendant trois ans et demi, j'y ai développé des procédés physiques pour la fabrication industrielle, donnant lieu à trois brevets internationaux. Cette période m'a appris quelque chose qu'un parcours purement académique enseigne rarement : rendre une expérience assez robuste pour qu'un procédé industriel d'envergure en dépende. Je suis revenu à la recherche fondamentale en 2024 au Laboratoire Jean Perrin, sur la microrhéométrie de la matrice extracellulaire au cours de l'embryogenèse.</p>
+  <p>Après la thèse, j'ai choisi de confronter ma physique à la recherche industrielle appliquée en rejoignant Saint-Gobain Recherche Paris comme ingénieur de recherche. Pendant trois ans et demi, j'y ai travaillé sur le contrôle de l'écoulement et du dépôt de matière en impression 3D, ce qui a donné lieu à trois familles de brevets (dont trois brevets français délivrés). Cette période m'a appris quelque chose qu'un parcours purement académique enseigne rarement : rendre une expérience assez robuste pour qu'un procédé industriel d'envergure en dépende. Je suis revenu à la recherche fondamentale en 2024 au Laboratoire Jean Perrin, où je construis des gouttes senseurs et des rhéomètres magnétiques pour mesurer contraintes et propriétés matérielles à l'intérieur d'embryons de poisson-zèbre.</p>
 
   <p><a href="{{ '/assets/docs/cv.pdf' | relative_url }}">CV complet (PDF, 52 ko)</a></p>
 </div>
@@ -30,7 +30,7 @@ description: >-
       <div class="time-details">
         <h3>Chercheur post-doctorant</h3>
         <p class="location">Laboratoire Jean Perrin, Sorbonne Université — Paris</p>
-        <p class="description">Microrhéométrie de la matrice extracellulaire au cours de l'embryogenèse par gouttes de ferrofluide, avec Léa-Laetitia Pontani.</p>
+        <p class="description">Gouttes senseurs de contrainte et rhéologie par ferrofluide dans l'embryon de poisson-zèbre, avec Léa-Laetitia Pontani, dans le cadre du projet ANR MECAMATRIX.</p>
       </div>
     </div>
     <div class="timeline-item">
@@ -38,7 +38,7 @@ description: >-
       <div class="time-details">
         <h3>Ingénieur de recherche R&amp;D</h3>
         <p class="location">Saint-Gobain Recherche Paris — Aubervilliers</p>
-        <p class="description">Physique des procédés industriels. Trois brevets internationaux déposés.</p>
+        <p class="description">Écoulement et dépôt de matière en impression 3D. Trois familles de brevets, dont trois brevets français délivrés.</p>
       </div>
     </div>
     <div class="timeline-item">
@@ -82,7 +82,7 @@ description: >-
       <h2>Distinctions</h2>
       <ul class="bullet-list">
         <li><strong>2019 : <a href="{{ '/fr/galerie/' | relative_url }}">La preuve par l'image</a>, CNRS.</strong> Exposée à la Cité des sciences et de l'industrie, Paris.</li>
-        <li><strong>2019 : Beautiful Science</strong>, Société Française de Physique.</li>
+        <li><strong>2019 : Beautiful Science</strong>, Société Française de Physique, pour la même image.</li>
         <li><strong>2015 : <a href="{{ '/fr/galerie/' | relative_url }}">Nikon Small World in Motion</a>, mention honorable.</strong> Pour des images de cyanobactéries <em>Oscillatoria princeps</em>, avec le Prakash Lab à Stanford.</li>
         <li><strong>2011 : Olympiades internationales de physique</strong>, sélectionné parmi les dix finalistes au niveau national.</li>
       </ul>
@@ -91,23 +91,11 @@ description: >-
 </section>
 
 <section class="section">
-  <div class="two-col">
-    <div>
-      <h2>Service à la communauté</h2>
-      <ul class="bullet-list">
-        <li><strong>Relecture.</strong> Relecteur (<em lang="en">reviewer</em>) pour <em>iScience</em> (Cell Press).</li>
-        <li><strong>Organisation.</strong> Co-organisateur du symposium <em lang="en">Dynamics of Extra-Cellular Matrix: Insights Into Force Transmission and Microenvironment Regulation</em> (2024), une journée de présentations avec des intervenants internationaux.</li>
-        <li><strong>Atelier expérimental.</strong> Conception et animation d'un atelier sur les gouttes senseurs de contrainte dans les gels pour le <em lang="en">2nd meeting of the France-BioImaging Mechanobiology Working Group</em> (2026).</li>
-      </ul>
-    </div>
-    <div>
-      <h2>Vulgarisation</h2>
-      <ul class="bullet-list">
-        <li><strong>Wikipédia.</strong> Création et rédaction initiale de l'article francophone sur les <a href="https://fr.wikipedia.org/wiki/Cellules_MDCK" rel="noopener noreferrer" target="_blank">cellules MDCK</a>.</li>
-        <li><strong>Club astronomie de l'ESPCI (2013-2014).</strong> Président ; organisation d'un cycle de conférences publiques avec des invités internationaux, dont Michel Mayor, Athena Coustenis et Laura Parker.</li>
-      </ul>
-    </div>
-  </div>
+  <h2 class="section-title">Service à la communauté</h2>
+  <ul class="bullet-list">
+    <li><strong>Relecture.</strong> Relecteur (<em lang="en">reviewer</em>) pour <em>iScience</em> (Cell Press).</li>
+    <li><strong>Organisation.</strong> Co-organisateur du symposium <em lang="en">Dynamics of Extra-Cellular Matrix: Insights Into Force Transmission and Microenvironment Regulation</em> (2024), une journée de présentations avec des intervenants internationaux.</li>
+  </ul>
 </section>
 
 <section class="section">

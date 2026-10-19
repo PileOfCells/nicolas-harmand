@@ -9,10 +9,6 @@ microrheometry:
       en: Cell & developmental biology
       fr: Biologie cellulaire & du développement
     people: "M.-A. Breau & C. Curantz (Dev2A)"
-  - group:
-      en: Theory & modelling
-      fr: Théorie & modélisation
-    people: "J. O'Byrne (LJP)"
 
 epithelia:
   - group:
@@ -23,3 +19,11 @@ epithelia:
       en: Experimental biophysics
       fr: Biophysique expérimentale
     people: "L.-L. Pontani (LJP), S. Hénon (MSC), C. Poulard (LPS)"
+
+# Projet « hétérogénéité » : n'ajouter une personne qu'une fois la
+# collaboration installée (proche et actuelle, CHARTE § 5).
+heterogeneity:
+  - group:
+      en: Theory & modelling
+      fr: Théorie & modélisation
+    people: "J. O'Byrne (LJP), S. Gsell (IRPHE, Marseille) & M. Merkel (CPT, Marseille)"

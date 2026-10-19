@@ -31,7 +31,8 @@ données structurées et dans le sitemap.
     journal: "Nom du journal"
     ref: "12 (3), 456"                     # volume (numéro), page ou n° d'article
     doi: "10.1234/exemple"
-    topic: microrheometry                  # microrheometry | epithelia | (vide)
+    arxiv: "2601.01234"                     # facultatif : version libre
+    topic: microrheometry                  # microrheometry | epithelia | heterogeneity | (vide)
     image: stress-sensors-sq               # facultatif, voir « Ajouter une image »
     image_alt:
       en: "Short description of the image"
@@ -68,8 +69,9 @@ rappelle son homologue anglaise.
 |---|---|---|
 | Accueil | `index.md` | `fr/index.md` |
 | Recherche | `research.md` | `fr/recherche.md` |
-| — Senseurs de contraintes | `research/microrheometry.md` | `fr/recherche/microrheometrie.md` |
-| — Épithéliums | `research/epithelia.md` | `fr/recherche/epitheliums.md` |
+| — Épithéliums sur substrats courbes | `research/epithelia.md` | `fr/recherche/epitheliums.md` |
+| — Contraintes et rhéologie dans l'embryon | `research/microrheometry.md` | `fr/recherche/microrheometrie.md` |
+| — Tissus hétérogènes (projet) | `research/heterogeneity.md` | `fr/recherche/heterogeneite.md` |
 | Publications | `publications.md` | `fr/publications.md` |
 | Galerie | `gallery.md` | `fr/galerie.md` |
 | Encadrement & enseignement | `teaching.md` | `fr/enseignement.md` |

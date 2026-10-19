@@ -58,6 +58,9 @@ photo stress-sensors.jpg         stress-sensors         400 800 1600
 photo backgammon.webp            backgammon             260 520
 photo gallery-cell-island.png    gallery-cell-island    600 1200
 photo gallery-oscillatoria.png   gallery-oscillatoria   600 1200
+# Carte d'inférence de forces : thèse (2019), fig. 5.3, panneau de droite,
+# fond gris passé au noir, graduations retirées.
+photo force-inference.png        force-inference        400 800 1200
 
 carre epithelia-shape.jpg        epithelia-shape-sq     200 360
 carre epithelia-thickness.jpg    epithelia-thickness-sq 200 360

@@ -9,14 +9,18 @@
     en: Research
     fr: Recherche
   children:
-    - ref: microrheometry
-      label:
-        en: Force sensors in tissues
-        fr: Senseurs de force dans les tissus
     - ref: epithelia
       label:
-        en: Epithelial mechanics
-        fr: Mécanique des épithéliums
+        en: Epithelial shape
+        fr: Forme des épithéliums
+    - ref: microrheometry
+      label:
+        en: Stresses in embryos
+        fr: Contraintes dans l'embryon
+    - ref: heterogeneity
+      label:
+        en: Heterogeneous tissues
+        fr: Tissus hétérogènes
 
 - ref: publications
   label:

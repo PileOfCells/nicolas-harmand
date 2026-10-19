@@ -15,7 +15,7 @@ description: >-
 
   <p>I then completed a PhD in biophysics at the Laboratoire Matière et Systèmes Complexes, Université Paris Cité, supervised by Sylvie Hénon, on the relevance and the limits of surface and line tensions in accounting for the shapes of epithelial cells. Earlier, during my Master's, a research placement in Manu Prakash's lab at Stanford introduced me to topological defects in active bacterial colonies (my first encounter with living matter treated as a liquid crystal).</p>
 
-  <p>After the PhD I chose to test my physics against applied industrial research, joining Saint-Gobain Recherche Paris as an R&amp;D engineer. Over three and a half years I developed physical processes for industrial manufacturing, which led to three international patents. That period taught me something an academic track rarely does: how to make an experiment robust enough that a full industrial process can depend on it. I returned to fundamental research in 2024 at the Laboratoire Jean Perrin, working on the microrheometry of the extracellular matrix during embryogenesis.</p>
+  <p>After the PhD I chose to test my physics against applied industrial research, joining Saint-Gobain Recherche Paris as an R&amp;D engineer. Over three and a half years I worked on controlling the flow and deposition of materials in 3D printing, which led to three patent families (three French patents granted). That period taught me something an academic track rarely does: how to make an experiment robust enough that a full industrial process can depend on it. I returned to fundamental research in 2024 at the Laboratoire Jean Perrin, where I build droplet sensors and magnetic rheometers to measure stresses and material properties inside zebrafish embryos.</p>
 
   <p><a href="{{ '/assets/docs/cv.pdf' | relative_url }}">Full CV (PDF, 52 kB)</a></p>
 </div>
@@ -28,7 +28,7 @@ description: >-
       <div class="time-details">
         <h3>Postdoctoral researcher</h3>
         <p class="location">Laboratoire Jean Perrin, Sorbonne Université — Paris</p>
-        <p class="description">Microrheometry of the extracellular matrix during embryogenesis using ferrofluid droplets, with Léa-Laetitia Pontani.</p>
+        <p class="description">Droplet stress sensors and ferrofluid rheology in zebrafish embryos, with Léa-Laetitia Pontani, within the ANR project MECAMATRIX.</p>
       </div>
     </div>
     <div class="timeline-item">
@@ -36,7 +36,7 @@ description: >-
       <div class="time-details">
         <h3>R&amp;D research engineer</h3>
         <p class="location">Saint-Gobain Recherche Paris — Aubervilliers</p>
-        <p class="description">Physics of industrial processes. Three international patents filed.</p>
+        <p class="description">Flow and deposition of materials in 3D printing. Three patent families, including three granted French patents.</p>
       </div>
     </div>
     <div class="timeline-item">
@@ -80,7 +80,7 @@ description: >-
       <h2>Awards</h2>
       <ul class="bullet-list">
         <li><strong>2019: <a href="{{ '/gallery/' | relative_url }}">La preuve par l'image</a>, CNRS.</strong> Exhibited at the Cité des sciences et de l'industrie, Paris.</li>
-        <li><strong>2019: Beautiful Science</strong>, French Physical Society.</li>
+        <li><strong>2019: Beautiful Science</strong>, French Physical Society, for the same image.</li>
         <li><strong>2015: <a href="{{ '/gallery/' | relative_url }}">Nikon Small World in Motion</a>, honourable mention.</strong> For footage of <em>Oscillatoria princeps</em> cyanobacteria, with the Prakash Lab at Stanford.</li>
         <li><strong>2011: International Physics Olympiad</strong>, selected among the ten national finalists.</li>
       </ul>
@@ -89,23 +89,11 @@ description: >-
 </section>
 
 <section class="section">
-  <div class="two-col">
-    <div>
-      <h2>Service to the community</h2>
-      <ul class="bullet-list">
-        <li><strong>Peer review.</strong> Reviewer for <em>iScience</em> (Cell Press).</li>
-        <li><strong>Event organisation.</strong> Co-organiser of the symposium <em>Dynamics of Extra-Cellular Matrix: Insights Into Force Transmission and Microenvironment Regulation</em> (2024), a one-day meeting with international speakers.</li>
-        <li><strong>Hands-on workshop.</strong> Designed and ran an experimental workshop on force-sensing droplets in gels for the 2nd meeting of the France-BioImaging Mechanobiology Working Group (2026).</li>
-      </ul>
-    </div>
-    <div>
-      <h2>Outreach</h2>
-      <ul class="bullet-list">
-        <li><strong>Wikipedia.</strong> Wrote the initial French Wikipedia article on <a href="https://fr.wikipedia.org/wiki/Cellules_MDCK" rel="noopener noreferrer" target="_blank" lang="fr">MDCK cells</a>.</li>
-        <li><strong>Astronomy club, ESPCI Paris (2013–2014).</strong> President; organised a public lecture series with international guests, including Michel Mayor, Athena Coustenis and Laura Parker.</li>
-      </ul>
-    </div>
-  </div>
+  <h2 class="section-title">Service to the community</h2>
+  <ul class="bullet-list">
+    <li><strong>Peer review.</strong> Reviewer for <em>iScience</em> (Cell Press).</li>
+    <li><strong>Event organisation.</strong> Co-organiser of the symposium <em>Dynamics of Extra-Cellular Matrix: Insights Into Force Transmission and Microenvironment Regulation</em> (2024), a one-day meeting with international speakers.</li>
+  </ul>
 </section>
 
 <section class="section">

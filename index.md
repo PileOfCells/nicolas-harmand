@@ -6,7 +6,7 @@ title: Nicolas Harmand
 description: >-
   Nicolas Harmand, postdoctoral researcher at Laboratoire Jean Perrin
   (Sorbonne Université / CNRS). Soft matter physics applied to living systems:
-  tissue mechanics, morphogenesis and in situ force sensors.
+  tissue mechanics, morphogenesis and in situ stress sensors.
 ---
 
 <section class="hero-section">
@@ -24,7 +24,7 @@ description: >-
 
       <div class="bio">
         <p>I use soft matter physics to understand living systems. My work is experimental: I design measurements that put physical models of tissues to the test (models I build with theoreticians, and sometimes on my own) to find where they hold, where they break, and which mechanism is missing.</p>
-        <p>Trained as an engineer at ESPCI Paris and holding a PhD in biophysics, I spent three and a half years in industrial R&amp;D at Saint-Gobain, where I developed physical processes that led to three international patents. I returned to fundamental research in 2024 at the Laboratoire Jean Perrin, where I develop micrometre-scale sensors to measure mechanical stresses inside developing embryos.</p>
+        <p>Trained as an engineer at ESPCI Paris and holding a PhD in biophysics, I spent three and a half years in industrial R&amp;D at Saint-Gobain, where I worked on controlling the flow and deposition of materials in 3D printing, which led to three patent families. I returned to fundamental research in 2024 at the Laboratoire Jean Perrin, where I build droplet sensors and magnetic rheometers to measure stresses and material properties inside developing embryos.</p>
       </div>
 
       <div class="links-wrapper">
@@ -41,9 +41,9 @@ description: >-
   </div>
 
   <ul class="facts">
-    <li><strong>Phys. Rev. X</strong>Among the eight papers of the year (2021)</li>
+    <li><strong>Phys. Rev. X</strong>One of 8 papers in an editors' Highlights collection (2022)</li>
     <li><strong>Journal cover</strong>The European Physical Journal E, 2022</li>
-    <li><strong>3 international patents</strong>Filed at Saint-Gobain, 2023–2024</li>
+    <li><strong>3 patent families</strong>Saint-Gobain, three French patents granted (2024-2025)</li>
     <li><strong>3 image awards</strong>Nikon, CNRS, French Physical Society</li>
   </ul>
 </section>

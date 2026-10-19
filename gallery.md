@@ -7,7 +7,6 @@ description: >-
   Award-winning scientific images by Nicolas Harmand: Nikon Small World in
   Motion, CNRS "La preuve par l'image", "Beautiful Science" and the cover of
   The European Physical Journal E.
-image: /assets/img/gallery-cell-island-1200.webp
 ---
 
 <h1>Gallery</h1>
@@ -20,10 +19,10 @@ image: /assets/img/gallery-cell-island-1200.webp
   <li class="gallery-item">
     {%- include picture.html name="gallery-cell-island" widths="600,1200" sizes="(max-width: 900px) 100vw, 840px" w=840 h=560 alt="Circular island of MDCK epithelial cells imaged by confocal fluorescence microscopy: nuclei in cyan, cell junctions outlined in red and orange" -%}
     <div class="gallery-meta">
-      <span class="gallery-award">La preuve par l'image — CNRS</span>
+      <span class="gallery-award">La preuve par l'image (CNRS) and Beautiful Science (French Physical Society)</span>
       <span class="gallery-year">2019</span>
     </div>
-    <p class="gallery-caption">An island of MDCK epithelial cells, several thousand strong, confined to a circular patch. Nuclei appear in cyan, cell-cell junctions in red and orange. At the rim, where the tissue meets free space, cells crowd and their junctions brighten (the signature of the mechanical tension the edge carries). Exhibited at the Cité des sciences et de l'industrie, Paris.</p>
+    <p class="gallery-caption">An island of MDCK epithelial cells, several thousand strong, confined to a circular patch. Nuclei appear in cyan, cell-cell junctions in red and orange. At the rim, where the tissue meets free space, cells are more tightly packed and their junctions appear brighter. Exhibited at the Cité des sciences et de l'industrie, Paris. Image: N. Harmand, D. Pereira, S. Hénon (MSC, 2017).</p>
   </li>
 
   <li class="gallery-item">
@@ -41,6 +40,6 @@ image: /assets/img/gallery-cell-island-1200.webp
       <span class="gallery-award">Nikon Small World in Motion — honourable mention</span>
       <span class="gallery-year">2015</span>
     </div>
-    <p class="gallery-caption"><em>Oscillatoria princeps</em>, a filamentous cyanobacterium that glides across surfaces. Left to their own devices, the filaments align with their neighbours and organise into swirls and defects (an experimental realisation of an active nematic liquid crystal, made of living matter).</p>
+    <p class="gallery-caption"><em>Oscillatoria princeps</em>, a filamentous cyanobacterium that glides across surfaces. Left to their own devices, the filaments align with their neighbours and organise into swirls and defects (an experimental realisation of an active nematic liquid crystal, made of living matter). Footage: H. Mukundarajan, V. N. Prakash, N. Harmand, M. Prakash (Stanford University).</p>
   </li>
 </ul>

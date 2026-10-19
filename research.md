@@ -4,26 +4,19 @@ lang: en
 permalink: /research/
 title: Research
 description: >-
-  Measuring forces inside living tissues with purpose-built micrometre-scale
-  sensors, and explaining the shapes epithelia adopt with continuum mechanics.
+  Testing minimal physical models of epithelia against measurements, building
+  droplet sensors and rheometers for embryonic tissues, and a research project
+  on how cellular heterogeneity and tissue mechanics shape one another.
 ---
 
 <h1>Research</h1>
 
 <div class="prose">
   <p class="question">How do cellular heterogeneity and tissue mechanics shape one another?</p>
-  <p class="lead">Biological tissues are active, heterogeneous materials. Whether during embryonic development or tumour progression, the way mechanical properties (deformations, flows) and cellular heterogeneities (adhesion, contractility) feed back on each other remains largely unresolved. I probe these feedbacks by building robust experimental frameworks at the interface between soft matter physics and developmental biology.</p>
+  <p class="lead">I am an experimentalist working on the mechanics of living tissues, and my work follows one thread: a physical model of a tissue is only worth the measurement that challenges it.</p>
+  <p>During my PhD I asked how far a minimal model, a few surface and line tensions, goes in explaining the shape of epithelial cells, and found where it breaks. Testing models this way requires measuring stresses and material properties inside living tissues, so my postdoctoral work builds droplet sensors and magnetic rheometers that do it in embryos. My research project brings the two together on a single question, the one above.</p>
 </div>
 
 <section class="section">
   {%- include research-cards.html -%}
-</section>
-
-<section class="section">
-  <h2 class="section-title">Research programme</h2>
-  <div class="prose">
-    <p>Both directions share one conviction: a physical model of a tissue is only worth what the measurement that challenges it is worth. My aim is to build the experiments that make those measurements possible, then use them to test (and sometimes break) the models we hold.</p>
-    <p>The immediate objective is to turn force-sensing droplets into a quantitative, routine tool: sensors that self-functionalise <em>in situ</em>, are calibrated against known rheology, and can report stresses continuously inside an embryo over the course of development. Coupling that read-out with the continuum descriptions validated on epithelia would allow us to move from measuring forces at a point to mapping the stress field of a whole developing tissue, and to ask which heterogeneities the tissue actually cares about.</p>
-    <p>This programme sits squarely between soft matter physics, experimental instrumentation for living matter, and developmental biology, and it is the reason I keep both an experimental bench and a modelling notebook open at the same time.</p>
-  </div>
 </section>

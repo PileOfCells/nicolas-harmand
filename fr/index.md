@@ -25,7 +25,7 @@ description: >-
 
       <div class="bio">
         <p>J'utilise la physique de la matière molle pour comprendre le vivant. Ma démarche est expérimentale : je conçois des mesures qui mettent à l'épreuve les modèles physiques des tissus (que je construis avec des théoriciens, et parfois seul) pour déterminer où ils tiennent, où ils rompent, et quel mécanisme leur manque.</p>
-        <p>Ingénieur ESPCI Paris et docteur en biophysique, j'ai passé trois ans et demi en R&amp;D industrielle chez Saint-Gobain, où j'ai développé des procédés physiques ayant donné lieu à trois brevets internationaux. Je suis revenu à la recherche fondamentale en 2024 au Laboratoire Jean Perrin, où je développe des senseurs micrométriques pour mesurer les contraintes mécaniques à l'intérieur d'embryons en développement.</p>
+        <p>Ingénieur ESPCI Paris et docteur en biophysique, j'ai passé trois ans et demi en R&amp;D industrielle chez Saint-Gobain, où j'ai travaillé sur le contrôle de l'écoulement et du dépôt de matière en impression 3D, ce qui a donné lieu à trois familles de brevets. Je suis revenu à la recherche fondamentale en 2024 au Laboratoire Jean Perrin, où je construis des gouttes senseurs et des rhéomètres magnétiques pour mesurer contraintes et propriétés matérielles à l'intérieur d'embryons en développement.</p>
       </div>
 
       <div class="links-wrapper">
@@ -42,9 +42,9 @@ description: >-
   </div>
 
   <ul class="facts">
-    <li><strong>Phys. Rev. X</strong>Parmi les huit articles de l'année 2021</li>
+    <li><strong>Phys. Rev. X</strong>L'un des 8 articles d'une collection Highlights des éditeurs (2022)</li>
     <li><strong>Couverture de journal</strong>The European Physical Journal E, 2022</li>
-    <li><strong>3 brevets internationaux</strong>Déposés chez Saint-Gobain, 2023-2024</li>
+    <li><strong>3 familles de brevets</strong>Saint-Gobain, dont trois brevets français délivrés (2024-2025)</li>
     <li><strong>3 prix d'images</strong>Nikon, CNRS, Société Française de Physique</li>
   </ul>
 </section>

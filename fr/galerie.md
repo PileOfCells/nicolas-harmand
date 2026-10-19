@@ -7,7 +7,6 @@ description: >-
   Images scientifiques primées de Nicolas Harmand : Nikon Small World in Motion,
   « La preuve par l'image » (CNRS), « Beautiful Science » et la couverture de
   The European Physical Journal E.
-image: /assets/img/gallery-cell-island-1200.webp
 ---
 <!-- SYNC: gallery.md -->
 
@@ -21,10 +20,10 @@ image: /assets/img/gallery-cell-island-1200.webp
   <li class="gallery-item">
     {%- include picture.html name="gallery-cell-island" widths="600,1200" sizes="(max-width: 900px) 100vw, 840px" w=840 h=560 alt="Îlot circulaire de cellules épithéliales MDCK en microscopie confocale de fluorescence : noyaux en cyan, jonctions cellulaires soulignées de rouge et d'orange" -%}
     <div class="gallery-meta">
-      <span class="gallery-award">La preuve par l'image — CNRS</span>
+      <span class="gallery-award">La preuve par l'image (CNRS) et Beautiful Science (Société Française de Physique)</span>
       <span class="gallery-year">2019</span>
     </div>
-    <p class="gallery-caption">Un îlot de plusieurs milliers de cellules épithéliales MDCK, confinées sur une pastille circulaire. Les noyaux apparaissent en cyan, les jonctions intercellulaires en rouge et orange. Sur le pourtour, là où le tissu rencontre l'espace libre, les cellules se resserrent et leurs jonctions s'illuminent : la signature de la tension mécanique que porte le bord. Exposée à la Cité des sciences et de l'industrie, Paris.</p>
+    <p class="gallery-caption">Un îlot de plusieurs milliers de cellules épithéliales MDCK, confinées sur une pastille circulaire. Les noyaux apparaissent en cyan, les jonctions intercellulaires en rouge et orange. Sur le pourtour, là où le tissu rencontre l'espace libre, les cellules sont plus serrées et leurs jonctions plus brillantes. Exposée à la Cité des sciences et de l'industrie, Paris. Image : N. Harmand, D. Pereira, S. Hénon (MSC, 2017).</p>
   </li>
 
   <li class="gallery-item">
@@ -42,6 +41,6 @@ image: /assets/img/gallery-cell-island-1200.webp
       <span class="gallery-award">Nikon Small World in Motion — mention honorable</span>
       <span class="gallery-year">2015</span>
     </div>
-    <p class="gallery-caption"><em>Oscillatoria princeps</em>, une cyanobactérie filamenteuse qui glisse sur les surfaces. Laissés à eux-mêmes, les filaments s'alignent avec leurs voisins et s'organisent en tourbillons et en défauts (une réalisation expérimentale de cristal liquide nématique actif, en matière vivante).</p>
+    <p class="gallery-caption"><em>Oscillatoria princeps</em>, une cyanobactérie filamenteuse qui glisse sur les surfaces. Laissés à eux-mêmes, les filaments s'alignent avec leurs voisins et s'organisent en tourbillons et en défauts (une réalisation expérimentale de cristal liquide nématique actif, en matière vivante). Images : H. Mukundarajan, V. N. Prakash, N. Harmand, M. Prakash (Stanford University).</p>
   </li>
 </ul>

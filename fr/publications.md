@@ -4,7 +4,7 @@ lang: fr
 permalink: /fr/publications/
 title: Publications
 description: >-
-  Publications et brevets internationaux de Nicolas Harmand.
+  Articles, thèse de doctorat et brevets de Nicolas Harmand.
 ---
 <!-- SYNC: publications.md -->
 
@@ -20,21 +20,12 @@ description: >-
 </section>
 
 <section class="section publication-group">
+  <h2 class="section-title">{{ site.data.i18n[page.lang].thesis }}</h2>
+  {% include thesis.html %}
+</section>
+
+<section class="section publication-group">
   <h2 class="section-title">{{ site.data.i18n[page.lang].patents }}</h2>
-  <p class="note">Déposés au cours de mon activité en R&amp;D industrielle chez Saint-Gobain Recherche Paris.</p>
-  <ul class="pub-list">
-    {%- for p in site.data.publications.patents %}
-    <li class="pub-item">
-      <span class="pub-year">{{ p.year }}</span>
-      <div class="pub-details">
-        <span class="pub-title">{{ p.title }}</span>
-        <span class="pub-authors">{{ p.authors | replace: 'N. Harmand', '<strong>N. Harmand</strong>' }}</span>
-        <span class="pub-journal">{{ p.number }}</span>
-        <span class="pub-links">
-          <a class="pub-link-btn" href="{{ p.url }}" rel="noopener noreferrer" target="_blank">Google Patents</a>
-        </span>
-      </div>
-    </li>
-    {%- endfor %}
-  </ul>
+  <p class="note">Trois familles de brevets déposées pendant mon activité de R&amp;D industrielle chez Saint-Gobain Recherche Paris (titulaire : Saint-Gobain Weber). Elles portent sur le contrôle de l'écoulement et du dépôt de matière en impression 3D.</p>
+  {% include patent-list.html %}
 </section>

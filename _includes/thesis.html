@@ -1,0 +1,20 @@
+{%- comment -%}
+  Rend la thèse de doctorat depuis _data/publications.yml (clé `thesis`).
+{%- endcomment -%}
+{%- assign t = site.data.i18n[page.lang] -%}
+{%- assign th = site.data.publications.thesis -%}
+<ul class="pub-list">
+  <li class="pub-item">
+    <span class="pub-year">{{ th.year }}</span>
+    <div class="pub-details">
+      <span class="pub-title" lang="fr">{{ th.title.fr }}</span>
+      {%- if page.lang != 'fr' %}<span class="pub-journal">{{ th.title.en }}</span>{% endif %}
+      <span class="pub-authors"><strong>N. Harmand</strong>, {{ th.institution }}</span>
+      <span class="pub-journal">{{ t.supervisor }} {{ th.supervisor }}. {{ t.jury }} {{ th.jury[page.lang] }}.</span>
+      <span class="pub-links">
+        <a class="pub-link-btn" href="https://theses.hal.science/{{ th.hal }}" rel="noopener noreferrer" target="_blank">HAL: {{ th.hal }}</a>
+        <a class="pub-link-btn" href="https://theses.fr/{{ th.nnt }}" rel="noopener noreferrer" target="_blank">theses.fr</a>
+      </span>
+    </div>
+  </li>
+</ul>
