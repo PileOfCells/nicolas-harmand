@@ -40,13 +40,6 @@ description: >-
       {%- include picture.html name="portrait" widths="200,400,600" sizes="(max-width: 600px) 160px, 200px" w=200 h=250 alt="Nicolas Harmand" class="hero-photo" loading="eager" priority=true -%}
     </div>
   </div>
-
-  <ul class="facts">
-    <li><strong>Phys. Rev. X</strong>L'un des 8 articles d'une collection Highlights des éditeurs (2022)</li>
-    <li><strong>Couverture de journal</strong>The European Physical Journal E, 2022</li>
-    <li><strong>3 familles de brevets</strong>Saint-Gobain, dont trois brevets français délivrés (2024-2025)</li>
-    <li><strong>3 prix d'images</strong>Nikon, CNRS, Société Française de Physique</li>
-  </ul>
 </section>
 
 <section class="section">

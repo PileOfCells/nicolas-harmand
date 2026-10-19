@@ -16,6 +16,7 @@ description: >-
 <div class="prose">
   <p class="question">How do cellular heterogeneity and tissue mechanics shape one another?</p>
   <p class="lead">Tissues are rarely made of identical cells, in an embryo as in a growing tumour, and what happens to them depends on how a mixed tissue deforms and flows. Does a tissue made of two populations behave as the average of its constituents? And can imposed flows drive the segregation or the mixing of those populations?</p>
+  <p>The question also comes out of my current work. In the zebrafish embryo, my ferrofluid droplets find more residual stress at the boundary between the eye and the olfactory placode than inside either tissue, and there the loading reshapes them durably. A boundary between two cell populations is where heterogeneity and mechanics meet; this project studies such boundaries <em>in vitro</em>, where the populations and the forces applied to them can be chosen.</p>
 </div>
 
 <section class="section">

@@ -39,7 +39,7 @@ description: >-
   <div class="prose">
     <p class="status-label">{{ site.data.i18n[page.lang].ongoing }}</p>
     <p>Un champ magnétique peut en plus tirer sur une goutte de ferrofluide, ce qui transforme le senseur en rhéomètre. La méthode existe mais s'est peu diffusée, car elle demande un équipement dédié. Avec des collègues du Laboratoire Jean Perrin et de l'équipe de Marie-Anne Breau, je construis une version que tout laboratoire peut monter : un module amovible d'aimants permanents motorisés qui se pose sur un microscope standard, et des gouttes faites d'un ferrofluide commercial.</p>
-    <p>Une même goutte lit alors la contrainte résiduelle, la rigidité, les temps de relaxation et la plasticité du tissu environnant. Dans l'embryon de poisson-zèbre, les premiers enregistrements distinguent déjà les tissus.</p>
+    <p>Une même goutte lit alors la contrainte résiduelle, la rigidité, les temps de relaxation et la plasticité du tissu environnant. Dans l'embryon de poisson-zèbre, les premiers enregistrements distinguent déjà les tissus, et la frontière entre deux d'entre eux ne se comporte comme aucun des deux : une piste que reprend mon <a href="{{ '/fr/recherche/heterogeneite/' | relative_url }}">projet de recherche</a>.</p>
   </div>
 </section>
 

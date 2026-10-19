@@ -39,13 +39,6 @@ description: >-
       {%- include picture.html name="portrait" widths="200,400,600" sizes="(max-width: 600px) 160px, 200px" w=200 h=250 alt="Nicolas Harmand" class="hero-photo" loading="eager" priority=true -%}
     </div>
   </div>
-
-  <ul class="facts">
-    <li><strong>Phys. Rev. X</strong>One of 8 papers in an editors' Highlights collection (2022)</li>
-    <li><strong>Journal cover</strong>The European Physical Journal E, 2022</li>
-    <li><strong>3 patent families</strong>Saint-Gobain, three French patents granted (2024-2025)</li>
-    <li><strong>3 image awards</strong>Nikon, CNRS, French Physical Society</li>
-  </ul>
 </section>
 
 <section class="section">

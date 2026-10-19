@@ -71,31 +71,6 @@
   .inst-logo { filter: none; opacity: 0.85; }
 }
 
-/* ── Faits saillants ─────────────────────────────────────────────────── */
-/* Grille plutôt que ligne à séparateurs : au moindre retour à la ligne, un
-   « · » se retrouvait orphelin en début de ligne. */
-.facts {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 22px 40px;
-  max-width: 700px;
-  margin: 40px 0 0;
-  padding-top: 28px;
-  border-top: 1px solid var(--border);
-  list-style: none;
-  font-size: 0.85rem;
-  line-height: 1.45;
-  color: var(--text-secondary);
-
-  li strong {
-    display: block;
-    color: var(--text-primary);
-    font-weight: 500;
-    font-size: 0.95rem;
-    margin-bottom: 2px;
-  }
-}
-
 /* ── Actualités ──────────────────────────────────────────────────────── */
 .news-list {
   list-style: none;
@@ -393,7 +368,6 @@ a.highlight-tag {
 
   .figure-grid { grid-template-columns: 1fr; }
   .conf-list li { grid-template-columns: 1fr; gap: 2px; }
-  .facts { grid-template-columns: 1fr; gap: 16px; }
 
   .table-scroll { overflow: visible; }
 

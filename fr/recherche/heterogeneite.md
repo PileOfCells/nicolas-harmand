@@ -18,6 +18,7 @@ description: >-
 <div class="prose">
   <p class="question">Comment l'hétérogénéité cellulaire et la mécanique tissulaire s'influencent-elles mutuellement ?</p>
   <p class="lead">Les tissus sont rarement faits de cellules identiques, dans un embryon comme dans une tumeur en croissance, et leur devenir dépend de la manière dont un tissu mélangé se déforme et s'écoule. Un tissu composé de deux populations se comporte-t-il comme la moyenne de ses constituants ? Et des écoulements imposés peuvent-ils provoquer la ségrégation ou le mélange de ces populations ?</p>
+  <p>La question naît aussi de mon travail actuel. Dans l'embryon de poisson-zèbre, mes gouttes de ferrofluide mesurent davantage de contrainte résiduelle à la frontière entre l'œil et la placode olfactive qu'à l'intérieur de chacun des deux tissus, et la sollicitation les y déforme durablement. Une frontière entre deux populations cellulaires est le lieu où hétérogénéité et mécanique se rencontrent ; ce projet étudie de telles frontières <em lang="la">in vitro</em>, là où l'on peut choisir les populations et les forces qu'on leur applique.</p>
 </div>
 
 <section class="section">

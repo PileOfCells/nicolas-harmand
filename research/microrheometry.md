@@ -37,7 +37,7 @@ description: >-
   <div class="prose">
     <p class="status-label">{{ site.data.i18n[page.lang].ongoing }}</p>
     <p>A ferrofluid droplet can also be pulled by a magnetic field, which turns the sensor into a rheometer. The method exists but has spread little, because it requires dedicated equipment. With colleagues at the Laboratoire Jean Perrin and in Marie-Anne Breau's group, I am building a version any lab can mount: a removable module of motorised permanent magnets that sits on a standard microscope, with droplets made from a commercial ferrofluid.</p>
-    <p>A single droplet then reads the residual stress, the stiffness, the relaxation times and the plasticity of the surrounding tissue. In the zebrafish embryo, first recordings already tell tissues apart.</p>
+    <p>A single droplet then reads the residual stress, the stiffness, the relaxation times and the plasticity of the surrounding tissue. In the zebrafish embryo, first recordings already tell tissues apart, and the boundary between two of them behaves unlike either, a lead my <a href="{{ '/research/heterogeneity/' | relative_url }}">research project</a> takes up.</p>
   </div>
 </section>
 
